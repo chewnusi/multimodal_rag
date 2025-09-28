@@ -10,6 +10,7 @@ sys.path.append(str(Path(__file__).parent.parent / "src"))
 # Import search service
 try:
     from search_service import MultimodalSearchService
+    from answer_generation_service import AnswerGenerationService
 except ImportError as e:
     st.error(f"Error importing search service: {e}")
     st.error("Make sure search_service.py is in the src/ folder")
@@ -30,14 +31,19 @@ if 'search_results' not in st.session_state:
     st.session_state.search_results = None
 if 'search_service' not in st.session_state:
     st.session_state.search_service = None
+if 'generated_answer' not in st.session_state:
+    st.session_state.generated_answer = None
+if 'answer_service' not in st.session_state:
+    st.session_state.answer_service = None
 
 def initialize_search_service():
     """Initialize the search service with caching."""
+    services_initialized = True
+    
     if st.session_state.search_service is None:
         with st.spinner("Initializing search service..."):
             try:
                 st.session_state.search_service = MultimodalSearchService()
-                # Load indexes
                 text_loaded, image_loaded = st.session_state.search_service.load_all_indexes()
                 
                 if not text_loaded and not image_loaded:
@@ -47,24 +53,31 @@ def initialize_search_service():
                     st.warning("Text index not found. Only image search will be available.")
                 elif not image_loaded:
                     st.warning("Image index not found. Only text search will be available.")
-                else:
-                    st.success("Both text and image indexes loaded successfully!")
-                
-                return True
+                    
             except Exception as e:
                 st.error(f"Error initializing search service: {e}")
-                return False
-    return True
+                services_initialized = False
+    
+    if st.session_state.answer_service is None:
+        with st.spinner("Initializing answer generation service..."):
+            try:
+                st.session_state.answer_service = AnswerGenerationService()
+            except Exception as e:
+                st.error(f"Error initializing answer generation service: {e}")
+                st.error("Make sure GOOGLE_API_KEY is set in your environment")
+                services_initialized = False
+    
+    return services_initialized
 
 def clear_query():
     """Clear the query and results."""
     st.session_state.query = ""
     st.session_state.search_results = None
 
-def perform_search(max_results=3):
-    """Perform search for the single query."""
-    if not st.session_state.search_service:
-        st.error("Search service not initialized")
+def perform_search_and_generate_answer(max_results=4):
+    """Perform search and generate answer for the query."""
+    if not st.session_state.search_service or not st.session_state.answer_service:
+        st.error("Services not initialized")
         return
     
     query = st.session_state.query.strip()
@@ -73,17 +86,68 @@ def perform_search(max_results=3):
         st.warning("Please enter a search query")
         return
     
-    with st.spinner(f"Searching for '{query}'..."):
+    with st.spinner(f"Searching for '{query}' and generating answer..."):
         try:
-            # Search both text and images for the query
             results = st.session_state.search_service.search_multimodal(
                 query=query,
                 k_text=max_results,
                 k_images=max_results
             )
             st.session_state.search_results = results
+            
+            answer_result = st.session_state.answer_service.generate_answer_with_summary(
+                query=query,
+                search_results=results,
+                n_articles=max_results,
+                n_images=max_results
+            )
+            st.session_state.generated_answer = answer_result
+            
         except Exception as e:
-            st.error(f"Error searching for '{query}': {e}")
+            st.error(f"Error processing query '{query}': {e}")
+
+def display_generated_answer():
+    """Display the AI-generated answer."""
+    if not st.session_state.generated_answer:
+        return
+    
+    st.header("🤖 AI-Generated Answer")
+    
+    with st.container():
+        st.markdown(
+            f"""
+            <div style="
+                background-color: #f0f8ff; 
+                padding: 20px; 
+                border-radius: 10px; 
+                border-left: 4px solid #4CAF50;
+                margin-bottom: 20px;
+            ">
+                {st.session_state.generated_answer['answer']}
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+        
+        col1, col2, col3, col4 = st.columns(4)
+        
+        with col1:
+            st.metric(
+                "Sources Used", 
+                st.session_state.generated_answer['sources_used']
+            )
+        
+        with col2:
+            st.metric(
+                "Primary Articles", 
+                st.session_state.generated_answer['primary_articles']
+            )
+        
+        with col3:
+            st.metric(
+                "Primary Images", 
+                st.session_state.generated_answer['primary_images']
+            )
 
 def display_image_result(result: Dict[str, Any]):
     """Display a single image search result."""
@@ -262,7 +326,7 @@ def main():
     
     # Main search interface
     st.header("Search Query")
-    st.markdown("Enter your search query to find relevant articles and images.")
+    st.markdown("Enter your search query to get an AI-powered answer, based on found relevant articles and images.")
     
     # Single query input
     st.session_state.query = st.text_input(
@@ -276,13 +340,17 @@ def main():
     col1, col2 = st.columns([2, 1])
     
     with col1:
-        if st.button("🚀 Start Search", type="primary", width='stretch'):
-            perform_search(max_results)
+        if st.button("🚀 Search & Generate Answer", type="primary", width='stretch'):
+            perform_search_and_generate_answer(max_results)
     
     with col2:
         if st.button("🧹 Clear", width='stretch'):
             clear_query()
             st.rerun()
+
+    if st.session_state.generated_answer:
+        display_generated_answer()
+        st.divider()
     
     # Display results
     if st.session_state.search_results:
