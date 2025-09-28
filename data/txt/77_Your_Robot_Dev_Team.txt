@@ -1,0 +1,19 @@
+OpenAI launched an agentic software-development system.
+
+What's new:   Codex , which is available as a preview via ChatGPT, is designed to work like a team of virtual coworkers in the cloud. An update of OpenAI's earlier Codex command-line software (Codex CLI), it uses agents to perform tasks such as writing code, running tests, and fixing bugs in parallel. Codex is available to users of ChatGPT Pro, Enterprise, and Team with Plus and Edu coming soon. A smaller version of the underlying model, called codex-mini-latest, is designed to work with Codex CLI and available via API for $1.50/$6.00 per 1 million tokens of input/output.
+
+How it works:  The model that underpins Codex is codex-1, a version of OpenAI's top-of-the-line o3 reasoning model that was fine-tuned for software engineering. OpenAI trained the model on real-world coding tasks via reinforcement learning. Codex does not accept image input (say, a sketch of a user interface) or allow users to redirect an agent while it's operating. OpenAI promises to add these features to a future version.
+
+Codex puts users in control of a team of software-development agents that operate directly on a user's code repository (either locally or on GitHub) to improve code, build features, or make pull requests. The agents are confined to isolated, sandboxed containers so that they can't interact with each other, access the internet, or otherwise compromise security. Users can prompt agents to either write code or answer questions. A task may take as long as 30 minutes to complete depending on its complexity. After completing tasks, Codex provides footnotes including terminal logs, test results, and other evidence of its actions.  A file called AGENTS.md can modify agent behavior (like a README.md file, but for agents instead of humans). This file can specify how and when an agent makes pull requests, provide guidelines for coding style, or list tests to verify generated code.
+
+Results:  In OpenAI's tests, the codex-1 model outperformed other OpenAI reasoning models without AGENTS.md files or additional scaffolding such as tools or test logic.
+
+Performing unspecified software-engineering tasks including generating software patches, codex-1 (75 percent accuracy) exceeded o3 set to high effort (70 percent accuracy) and o4-mini set to high effort (67 percent accuracy). In tests of agentic software engineering in SWE-bench Verified, codex-1 (72.1 percent in 1 try, 83.8 percent in 8 tries), outperformed o3 set to high effort (69.7 percent in 1 try, 83.6 percent in 8 tries).
+
+Behind the news:  Agentic coding tools have become a key  battleground  for AI providers in the past year. Such tools have made developers more efficient, accelerated development cycles, and spawned the AI-assisted programming method known as  vibe coding .
+
+Launched in 2021 and deprecated in 2023, OpenAI's original  version  of Codex was an early model that translated natural language into code. Last month, OpenAI rolled out the open-source  Codex CLI , a command-line tool that acts as a lightweight coding agent. OpenAI is  negotiating  to acquire Windsurf, which makes an agent-based development environment, for $3 billion. The day before OpenAI announced the updated Codex, Windsurf  announced  its own models for coding and other software-development tasks.
+
+Why it matters:  AI-assisted software development yields significant productivity gains for developers. Earlier code-completion models are giving way to tools that perform more complex and varied development tasks with greater autonomy. Managing multiple agents that work in parallel is a logical next step.
+
+We're thinking:  Many engineers resist going into management because they love writing code. But with the rise of coding agents, we'll be able to keep coding even as we manage a virtual team!

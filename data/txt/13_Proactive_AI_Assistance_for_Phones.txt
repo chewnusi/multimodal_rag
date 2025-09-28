@@ -1,0 +1,13 @@
+Google's latest smartphone sports an AI assistant that anticipates the user's needs and presents helpful information without prompting.
+
+What's new:  Google  unveiled  its Pixel 10 along with an AI-powered system called Magic Cue. During calling, texting, and other interactions, the system automatically delivers relevant information -- dates, times, names, locations, weather, photos, airline booking numbers, and so on -- culled from compatible applications.
+
+How it works:  Magic Cue takes advantage of an updated version of  Gemini Nano  and runs on the Pixel 10's newly upgraded  Tensor G5  AI processor. The system tracks user behavior and provides relevant information proactively.
+
+Magic Cue does not require wake words or prompts. It runs in the background and responds to the phone's state from moment to moment. The system's output appears within the current app as a floating overlay window. In an example provided by Google, if a user receives a text asking when their flight is scheduled to land, Magic Cue will access the user's itinerary, extract relevant details, and offer the opportunity to insert them into a reply. If the user calls the airline to change the flight, the system will respond by displaying the flight information.
+
+Behind the news:  Google has been especially aggressive in building AI into phones. In 2021, it replaced the Qualcomm Snapdragon chip that had run AI inference on Pixel phones with its own Tensor chip, which combined a GPU, CPU, Tensor processing unit, and security subsystem. Three years later, the Pixel 8's Tensor G3 chip provided the muscle for  AI-enabled audio and video editing  -- but those capabilities were features within applications. Equipped with the new Tensor G5, Pixel 10 integrates AI with the operating system and applications to provide new kinds of capabilities.
+
+Why it matters:  Enabling edge devices to run powerful AI models has been a longstanding goal of big tech companies. But a smartphone's relatively meager computational, storage, and battery resources have presented serious  challenges . The combination of Gemini Nano and the Tensor G5 chip gives Google a strong foundation to keep pushing the limits of edge AI, and its control of the Android operating system gives it tremendous market power to promote its models.
+
+We're thinking:  Apple has noticed Google's progress. It's reportedly  negotiating  with Google to use Gemini technology for its Siri AI assistant.

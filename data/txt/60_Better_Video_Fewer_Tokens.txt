@@ -1,0 +1,17 @@
+Researchers reduced the number of tokens needed to represent video frames to be fed to a transformer.
+
+What's new:  Jindong Jiang, Xiuyu Li, and collaborators at Nvidia, Rutgers University, UC Berkeley, Massachusetts Institute of Technology, Nanjing University, and Korea Advanced Institute of Science and Technology built  STORM , a text-video system that performs well in tests of video understanding while processing fewer tokens.
+
+Key insight:  In a multimodal system, a large language model (LLM) that receives video tokens may struggle to process long videos. However, sequences of video frames often contain lots of redundancy, since few pixels may change from one frame to the next. Instead of forcing the LLM to process long sequences of redundant video tokens,  mamba  layers can enrich the token embeddings that represent one frame with information from other frames in the same clip. That way, the system can average token embeddings across frames without losing crucial information, making it possible to feed fewer tokens to the LLM without compromising performance.
+
+How it works:  The authors built STORM by training three components: (1) a pretrained  SigLIP  vision transformer, (2) untrained mamba layers, and (3) the pretrained large language model (LLM) from  Qwen2-VL . They trained the system to predict the next token in  image - text   pairs  and video-text pairs with  32-frame   videos , and video-text pairs with  128-frame videos .
+
+SigLIP learned to turn each video frame into 256 image tokens. Given a sequence of image tokens, mamba layers learned to process them in both directions - left-to-right and right-to-left - so each output token embedding encoded information from the entire video. The system averaged the token embeddings of 4 consecutive frames, reducing by a factor of 4 the number of tokens processed by Qwen2-VL's LLM. Given the averaged token embeddings, Qwen2-VL LLM learned to predict the next word in the video's associated text.  At inference, the system fed to the LLM the tokens that represented every second frame (a process the authors call temporal sampling), which further halved the input to the LLM.
+
+Results:  STORM outperformed proprietary and open models on measures of video understanding.
+
+On  MVBench , which asks multiple-choice questions about actions, object interactions, and scene transitions in 16-second videos, STORM achieved 70.6 percent accuracy. That's better than  GPT-4o  (64.6 percent accuracy) and Qwen2-VL (67.0 percent accuracy). A baseline system (STORM's SigLIP and Qwen2-VL LLM without mamba layers, averaging image tokens, and temporal sampling) achieved 69.5 percent. On  MLVU , which asks multiple-choice and open-ended questions about videos that range from 3 minutes to over 2 hours long, STORM reached 72.9 percent accuracy, topping GPT-4o (66.2 percent accuracy). The baseline model achieved 70.2 percent.
+
+Why it matters:  STORM compresses video at the input to the LLM, so the LLM processes 1/8 as many video tokens and uses 1/8 as much compute to process them. This enables the system to work more than 3 times faster than the baseline while performing better.
+
+We're thinking:  Initial work on the mamba architecture positioned it as a replacement for the transformer, but this work, along with  other   projects , combines them to get the benefits of both.

@@ -1,0 +1,13 @@
+As we approach 2025, my greatest hope for AI is that it will enable  prosocial  platforms that promote empathy, understanding, and collaboration rather than division.
+
+For too long, the algorithms that drive social media have functioned like strip-mining machines, extracting attention while eroding trust and social cohesion. What remains are depleted online spaces, where empathy struggles to take root and collective problem-solving finds no fertile ground. AI can -- and should -- help us transcend these entrenched divides.
+
+To achieve this, we must design AI systems that place prosocial values at their core. Instead of reinforcing fragmentation, recommendation algorithms can guide us toward " bridging content " that reveals common ground. They should clearly identify the communities a piece of content relates to -- whether physical, religious, political, social, cultural, or professional -- and illuminate the specific lines of division it seeks to mend.
+
+Realizing this vision requires a fundamental shift in what we optimize for. Instead of relying on pure engagement metrics, we should adopt values-driven indicators that prioritize constructive discourse and mutual understanding. For instance, we might spotlight "surprising validators," or individuals and perspectives that productively challenge assumptions, thereby enriching our sense of what seemed irreconcilable. Researchers and developers should co-create new ranking and curation methods, embed them into widely used platforms, and rigorously  assess  their impact on democratic life.
+
+At the same time, the AI community must embrace participatory, inclusive approaches to development and governance. Research on  pluralistic alignment  stresses that AI systems emerge from and operate within complex social contexts, and including a wide range of voices helps guard against institutional blind spots. Tools like  Polis , which can visualize stances and reveal hidden areas of consensus, already illustrate how complexity can be transformed into clarity. Such participatory methods ensure that AI reflects the priorities and values of the societies it serves, rather than amplifying the biases of the few.
+
+By embracing these inclusive, democratic principles, AI can help us co-create  digital public squares  that foster social cohesion rather than erode it. Embedding collective input at every stage -- from how we build datasets to how we set governance policies -- ensures that AI systems genuinely align with a spectrum of human values and serve as catalysts for common understanding.
+
+Audrey Tang is Taiwan's Cyber Ambassador, former Minister of Digital Affairs, and co-author of  Plurality: The Future of Collaborative Technology and Democracy .

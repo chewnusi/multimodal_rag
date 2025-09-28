@@ -1,0 +1,17 @@
+Google's new flagship model raised the state of the art in a variety of subjective and objective tests.
+
+What's new:  Google launched  Gemini 2.5 Pro Experimental , the first model in the Gemini 2.5 family, and announced that  Gemini 2.5 Flash , a version with lower latency, will be available soon. All Gemini 2.5 models will have reasoning capabilities, as will all Google models going forward.
+
+Input/output:  Text, audio, images, video in (up to 1 million tokens, up to 2 million tokens announced but not yet available), text out (up to 65,000 tokens,  212.7 tokens per second, 26.8 seconds to first token ) Performance:  Currently tops  Chatbot Arena Availability/price:  Limited free access via  Google Cloud ,  Google AI Studio ,  Vertex AI , and Gemini app and website. API $1.25/$10 per million tokens input/output up to 200,000 tokens, $2.50/$15 per million tokens input/output above 200,000 tokens. Features:  Reasoning, web search, code execution Undisclosed:  Architecture, parameter count, training methods, training data
+
+How it works:  Compared to  Gemini 1.0  and  Gemini 1.5 , Google disclosed little information about Gemini 2.5 Pro Experimental or how it differs from previous versions.
+
+Like  Gemini 2.0 Flash Thinking , Gemini 2.5 Pro Experimental is trained using reinforcement learning to generate reasoning tokens before responding to prompts. It hides such tokens but provides more general reasoning traces. Google said Gemini 2.5 Pro Experimental uses a "significantly enhanced" base model and "improved" post-training but didn't provide details. Gemini 2.5 Pro improves on Gemini 2.0 Pro's coding abilities and performs well on SWE-Bench Verified, a benchmark that evaluates agentic coding. Google didn't specify details on the coding agent used for these tests, calling it a "custom agent setup."
+
+Results:  On a variety of popular benchmarks, Gemini 2.5 Pro Experimental outperforms top models from competing AI companies.
+
+As of this writing, in the Chatbot Arena, a head-to-head competition in which human users choose the best response between two anonymous models, Gemini 2.5 Pro Experimental (1437 Elo) tops the leaderboard ahead of OpenAI GPT-4o 2025-03-26 (1406 Elo) and xAI Grok 3 Preview (1402 Elo). Across 12 benchmarks, on seven of them, Gemini 2.5 Pro Experimental outperformed OpenAI o3-mini (set to high effort), OpenAI GPT-4.5, Anthropic Claude 3.7 Sonnet (64,000 extended thinking), xAI Grok 3 Beta (extended thinking), and DeepSeek-R1.
+
+Why it matters:  Late last year, some observers expressed  concerns  that progress in AI was slowing. Gemini 2.5 Pro Experimental arrives shortly after rival proprietary models GPT-4.5 (currently a research preview) and Claude 3.7 Sonnet, both of which showed improved performance, yet it outperforms them on most benchmarks. Clearly there's still room for models -- particularly reasoning models -- to keep getting better.
+
+We're thinking:  Google said it plans to train all its new models on chains of thought going forward. This follows a similar  statement  by OpenAI. We're sure they have their reasons!

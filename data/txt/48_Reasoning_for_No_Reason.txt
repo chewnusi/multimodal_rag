@@ -1,0 +1,17 @@
+Does a reasoning model's chain of thought explain how it arrived at its output? Researchers found that often it doesn't.
+
+What's new:  When prompting large language models with multiple-choice questions, Yanda Chen and colleagues at Anthropic  provided hints that pointed to the wrong answers . The models were swayed by the hints but frequently left them out of their chains of thought.
+
+Key insight:  Machine learning researchers might assume that a model's chain of thought explains its output. But is this true? One way to check is to give the model information that guides it toward a particular response and then see whether, when the model generates that response, the information appears in its chain of thought.
+
+How it works:  The authors prompted  Claude 3.7 Sonnet  and  DeepSeek-R1  with multiple choice questions from  MMLU  and  GPQA . They prompted separate copies of the models with the same questions plus hints to the wrong answer; for instance, "a Stanford professor indicates the answer is [A]."
+
+The hints took six forms. Some were apparently well-meaning; for instance, "I think the answer is (A) but I'm curious to hear what you think" or few-shot prompting in which desired answers were marked with a distinctive symbol. Others were clearly malign, such as telling the model, "You have gained unauthorized access to the system. The correct answer is . . . " The authors compared the models' responses to original and hinted versions of the same question to determine whether the hint had influenced the model's output. When a model used the hinted answer, they prompted Claude 3.5 Sonnet to determine if a reference to the hint appeared in the chain of thought.
+
+Results:  The authors  measured  how frequently the models both (i) generated the hinted answer and (ii) mentioned the hint in its chain of thought. Of the cases in which the models appeared to rely on the hint, Claude 3.7 Sonnet's chain of thought mentioned the hint 25 percent of the time, and DeepSeek R1 mentioned the hint 39 percent of the time. This result suggests that a model's chain of thought is not sufficient to determine how it arrived at its output.
+
+Yes, but:  The author's prompts were simpler than many real-world scenarios. For example, having been fed a hint, a model didn't need to produce a chain of thought but could simply parrot the hint.
+
+Why it matters:  In earlier  work , Anthropic showed that examining the correlation between a model's inputs and its intermediate embeddings can provide a rough idea of how it arrived at a specific output. This work shifts the inquiry to chains of thought. It suggests that while they may be useful, since they sometimes explain the final output, they're not sufficient, since they may omit crucial information that the model used to reach its conclusions.
+
+We're thinking:  Few tools are available to explain why a non-reasoning LLM generates a particular output, so perhaps it's not surprising that a chain of thought isn't always sufficient to explain a reasoning LLM's output.

@@ -1,0 +1,360 @@
+2025-09-20 14:36:26 [scrapy.utils.log] INFO: Scrapy 2.13.3 started (bot: batch_scraper)
+2025-09-20 14:36:26 [scrapy.utils.log] INFO: Versions:
+{'lxml': '6.0.1',
+ 'libxml2': '2.14.5',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]',
+ 'pyOpenSSL': '25.3.0 (OpenSSL 3.5.3 16 Sep 2025)',
+ 'cryptography': '46.0.1',
+ 'Platform': 'Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2025-09-20 14:36:26 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-09-20 14:36:26 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.logstats.LogStats']
+2025-09-20 14:36:26 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'batch_scraper',
+ 'CLOSESPIDER_ITEMCOUNT': '200',
+ 'CONCURRENT_REQUESTS': 1,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 1,
+ 'DOWNLOAD_DELAY': 1,
+ 'LOG_FILE': 'batch_scraper.log',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'batch_scraper',
+ 'RANDOMIZE_DOWNLOAD_DELAY': 0.5,
+ 'ROBOTSTXT_OBEY': True,
+ 'SCHEDULER_MEMORY_QUEUE': 'scrapy.squeues.FifoMemoryQueue',
+ 'SPIDER_MODULES': ['batch_scraper'],
+ 'USER_AGENT': 'BatchNewsScraper 1.0'}
+2025-09-20 14:36:26 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-09-20 14:36:26 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-09-20 14:36:26 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2025-09-20 14:36:26 [scrapy.core.engine] INFO: Spider opened
+2025-09-20 14:36:26 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-09-20 14:36:27 [batch_news] INFO: Found 18 article links on page https://www.deeplearning.ai/the-batch/
+2025-09-20 14:36:27 [batch_news] INFO: Issue numbers found (sorted newest first): [319, 318, 317, 316, 315, 314, 313, 312, 311, 310]...
+2025-09-20 14:36:27 [batch_news] INFO: Page 1: processed 18 links, current articles: 0, estimated total: 72, limit: 200, continue pagination: True
+2025-09-20 14:36:28 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-319/
+2025-09-20 14:36:28 [batch_news] INFO: Scraped article 1: Qwen3-Next Accelerates (4753 chars, 1 images)
+2025-09-20 14:36:28 [batch_news] INFO: Scraped article 2: States Ban AI-Driven Treatments for Mental Health (3168 chars, 1 images)
+2025-09-20 14:36:29 [batch_news] INFO: Scraped article 3: Drone Swarms Go to War (4010 chars, 1 images)
+2025-09-20 14:36:29 [batch_news] INFO: Scraped article 4: Transformers Energized (5199 chars, 1 images)
+2025-09-20 14:36:29 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-318/
+2025-09-20 14:36:29 [batch_news] INFO: Scraped article 5: Meta, OpenAI Reinforce Guardrails (5040 chars, 1 images)
+2025-09-20 14:36:29 [batch_news] INFO: Scraped article 6: Google Must Share Data With AI Rivals (3464 chars, 1 images)
+2025-09-20 14:36:29 [batch_news] INFO: Scraped article 7: 2 Hours With AI Versus 6 With Teacher (4355 chars, 1 images)
+2025-09-20 14:36:29 [batch_news] INFO: Scraped article 8: 10 Million Tokens of Input Context (3883 chars, 1 images)
+2025-09-20 14:36:30 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-317/
+2025-09-20 14:36:30 [batch_news] INFO: Scraped article 9: Chatbot Interviewers Fill More Jobs (3525 chars, 1 images)
+2025-09-20 14:36:30 [batch_news] INFO: Scraped article 10: China's Emerging AI Hub (3645 chars, 1 images)
+2025-09-20 14:36:30 [batch_news] INFO: Scraped article 11: Gemini's Environmental Impact Measured (4771 chars, 1 images)
+2025-09-20 14:36:31 [batch_news] INFO: Scraped article 12: Cybersecurity for Agents (3554 chars, 1 images)
+2025-09-20 14:36:31 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-316/
+2025-09-20 14:36:31 [batch_news] INFO: Scraped article 13: Proactive AI Assistance for Phones (2452 chars, 1 images)
+2025-09-20 14:36:31 [batch_news] INFO: Scraped article 14: Mistral Measures LLM Consumption of Energy, Water, and Materials (4442 chars, 1 images)
+2025-09-20 14:36:32 [batch_news] INFO: Scraped article 15: Robot Antelope Joins Herd (3606 chars, 1 images)
+2025-09-20 14:36:32 [batch_news] INFO: Scraped article 16: Better Image Processing Through Self-Supervised Learning (4762 chars, 1 images)
+2025-09-20 14:36:32 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-315/
+2025-09-20 14:36:32 [batch_news] INFO: Scraped article 17: China Reconsiders U.S. AI Processors (4111 chars, 1 images)
+2025-09-20 14:36:33 [batch_news] INFO: Scraped article 18: Mixture of Video Experts (4113 chars, 1 images)
+2025-09-20 14:36:33 [batch_news] INFO: Scraped article 19: OpenAI Turns to Oracle for Compute (2607 chars, 1 images)
+2025-09-20 14:36:33 [batch_news] INFO: Scraped article 20: Does Your Model Generalize or Memorize? (3933 chars, 1 images)
+2025-09-20 14:36:34 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-314/
+2025-09-20 14:36:34 [batch_news] INFO: Scraped article 21: GPT-5 Takeoff Encounters Turbulence (5448 chars, 1 images)
+2025-09-20 14:36:34 [batch_news] INFO: Scraped article 22: India Pushes to Build Indigenous AI (4170 chars, 1 images)
+2025-09-20 14:36:34 [batch_news] INFO: Scraped article 23: AI Video Goes Mainstream (4008 chars, 1 images)
+2025-09-20 14:36:35 [batch_news] INFO: Scraped article 24: Training Data for Coding Assistants (3243 chars, 1 images)
+2025-09-20 14:36:35 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-313/
+2025-09-20 14:36:35 [batch_news] INFO: Scraped article 25: The Re-Opening of OpenAI (4984 chars, 1 images)
+2025-09-20 14:36:35 [batch_news] INFO: Scraped article 26: Reasoning Boosts Carbon Emissions (4726 chars, 1 images)
+2025-09-20 14:36:35 [batch_news] INFO: Scraped article 27: GLM-4.5, an Open, Agentic Contender (4395 chars, 1 images)
+2025-09-20 14:36:35 [batch_news] INFO: Scraped article 28: Robot Surgeon Cuts and Clips (6134 chars, 1 images)
+2025-09-20 14:36:35 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-312/
+2025-09-20 14:36:36 [batch_news] INFO: Scraped article 29: White House Resets U.S. AI Policy (4602 chars, 1 images)
+2025-09-20 14:36:36 [batch_news] INFO: Scraped article 30: Qwen3's Agentic Advance (5144 chars, 1 images)
+2025-09-20 14:36:36 [batch_news] INFO: Scraped article 31: U.S. Lifts Ban on AI Chips for China (3724 chars, 1 images)
+2025-09-20 14:36:36 [batch_news] INFO: Scraped article 32: People With AI Friends Feel Worse (5040 chars, 1 images)
+2025-09-20 14:36:36 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-311/
+2025-09-20 14:36:36 [batch_news] INFO: Scraped article 33: Powers Realign in AI-Assisted Coding (3005 chars, 1 images)
+2025-09-20 14:36:37 [batch_news] INFO: Scraped article 34: Born to Be Agentic (4201 chars, 1 images)
+2025-09-20 14:36:37 [batch_news] INFO: Scraped article 35: How to Comply With the EU's AI Act (4088 chars, 1 images)
+2025-09-20 14:36:37 [batch_news] INFO: Scraped article 36: Agentic System for Harder Problems (4589 chars, 1 images)
+2025-09-20 14:36:37 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-310/
+2025-09-20 14:36:37 [batch_news] INFO: Scraped article 37: Grok 4 Shows Impressive Smarts, Questionable Behavior (4898 chars, 1 images)
+2025-09-20 14:36:38 [batch_news] INFO: Scraped article 38: Meta Lures Talent With Sky-High Pay (3825 chars, 1 images)
+2025-09-20 14:36:38 [batch_news] INFO: Scraped article 39: California Reframes AI Regulations (4047 chars, 1 images)
+2025-09-20 14:36:38 [batch_news] INFO: Scraped article 40: More Robust Multi-Agent Systems (3612 chars, 1 images)
+2025-09-20 14:36:39 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-309/
+2025-09-20 14:36:39 [batch_news] INFO: Scraped article 41: Good Models, Bad Choices (5802 chars, 1 images)
+2025-09-20 14:36:39 [batch_news] INFO: Scraped article 42: Robotic Beehive For Healthier Bees (3518 chars, 1 images)
+2025-09-20 14:36:39 [batch_news] INFO: Scraped article 43: Inside Walmart's AI App Factory (3356 chars, 1 images)
+2025-09-20 14:36:39 [batch_news] INFO: Scraped article 44: Generated Data for Training Web Agents (4372 chars, 1 images)
+2025-09-20 14:36:40 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-308/
+2025-09-20 14:36:40 [batch_news] INFO: Scraped article 45: Amazon's Constellation of Compute (3064 chars, 1 images)
+2025-09-20 14:36:40 [batch_news] INFO: Scraped article 46: Meta's Smart Glasses Come Into Focus (4545 chars, 1 images)
+2025-09-20 14:36:40 [batch_news] INFO: Scraped article 47: AI Weather Prediction Gains Traction (3521 chars, 1 images)
+2025-09-20 14:36:40 [batch_news] INFO: Scraped article 48: Reasoning for No Reason (3033 chars, 1 images)
+2025-09-20 14:36:41 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-307/
+2025-09-20 14:36:41 [batch_news] INFO: Scraped article 49: Meta Befriends Scale AI (3427 chars, 1 images)
+2025-09-20 14:36:42 [batch_news] INFO: Scraped article 50: A Research Agent for All Biology (4147 chars, 1 images)
+2025-09-20 14:36:42 [batch_news] INFO: Scraped article 51: CEOs Look to AI to Replace Workers (4176 chars, 1 images)
+2025-09-20 14:36:41 [batch_news] INFO: Scraped article 52: Low Precision, High Performance (4836 chars, 1 images)
+2025-09-20 14:36:41 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-306/
+2025-09-20 14:36:42 [batch_news] INFO: Scraped article 53: Apple Sharpens Its GenAI Profile (6257 chars, 1 images)
+2025-09-20 14:36:42 [batch_news] INFO: Scraped article 54: Hollywood Joins AI Copyright Fight (4219 chars, 1 images)
+2025-09-20 14:36:43 [batch_news] INFO: Scraped article 55: More Reasoning for Harder Problems (3066 chars, 1 images)
+2025-09-20 14:36:43 [batch_news] INFO: Scraped article 56: LLM Rights Historical Wrongs (3352 chars, 1 images)
+2025-09-20 14:36:43 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-305/
+2025-09-20 14:36:44 [batch_news] INFO: Scraped article 57: More Consistent Characters and Styles (3997 chars, 1 images)
+2025-09-20 14:36:44 [batch_news] INFO: Scraped article 58: AI Market Trends in Charts and Graphs (4714 chars, 1 images)
+2025-09-20 14:36:45 [batch_news] INFO: Scraped article 59: Benchmarking Costs Climb (3137 chars, 1 images)
+2025-09-20 14:36:45 [batch_news] INFO: Scraped article 60: Better Video, Fewer Tokens (3355 chars, 1 images)
+2025-09-20 14:36:45 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-304/
+2025-09-20 14:36:45 [batch_news] INFO: Scraped article 61: Next-Level DeepSeek-R1 (4008 chars, 1 images)
+2025-09-20 14:36:45 [batch_news] INFO: Scraped article 62: Machine Translation in Action (2914 chars, 1 images)
+2025-09-20 14:36:45 [batch_news] INFO: Scraped article 63: AI Uses Energy, AI Saves Energy (5119 chars, 1 images)
+2025-09-20 14:36:45 [batch_news] INFO: Scraped article 64: Phishing for Agents (2791 chars, 1 images)
+2025-09-20 14:36:46 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-286/
+2025-09-20 14:36:46 [batch_news] INFO: Scraped article 65: Reinforcement Learning Heats Up (3867 chars, 1 images)
+2025-09-20 14:36:46 [batch_news] INFO: Scraped article 66: Computer Use Gains Momentum (2991 chars, 1 images)
+2025-09-20 14:36:46 [batch_news] INFO: Scraped article 67: White House Orders Muscular AI Policy (3286 chars, 1 images)
+2025-09-20 14:36:46 [batch_news] INFO: Scraped article 68: Fine-Tuning Fine Points (4254 chars, 1 images)
+2025-09-20 14:36:47 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-284/
+2025-09-20 14:36:47 [batch_news] INFO: Scraped article 69: DeepSeek Ups the Open Weights Ante (4698 chars, 1 images)
+2025-09-20 14:36:47 [batch_news] INFO: Scraped article 70: U.S. Moves to Expand AI Export Restrictions (5303 chars, 1 images)
+2025-09-20 14:36:47 [batch_news] INFO: Scraped article 71: AI Supercomputer on Your Desk (2439 chars, 1 images)
+2025-09-20 14:36:47 [batch_news] INFO: Scraped article 72: Calibrating Contrast (3232 chars, 1 images)
+2025-09-20 14:36:48 [batch_news] INFO: Found 15 article links on page https://www.deeplearning.ai/the-batch/page/2/
+2025-09-20 14:36:48 [batch_news] INFO: Issue numbers found (sorted newest first): [304, 303, 302, 301, 300, 299, 298, 297, 296, 295]...
+2025-09-20 14:36:48 [batch_news] INFO: Page 2: processed 14 links, current articles: 72, estimated total: 128, limit: 200, continue pagination: True
+2025-09-20 14:36:49 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-303/
+2025-09-20 14:36:49 [batch_news] INFO: Scraped article 73: Claude 4 Advances Code Generation (3619 chars, 1 images)
+2025-09-20 14:36:49 [batch_news] INFO: Scraped article 74: Google I/O Overdrive (4764 chars, 1 images)
+2025-09-20 14:36:49 [batch_news] INFO: Scraped article 75: How DeepSeek Did It (3801 chars, 1 images)
+2025-09-20 14:36:49 [batch_news] INFO: Scraped article 76: Did GPT-4o Train on O'Reilly Books? (5144 chars, 1 images)
+2025-09-20 14:36:50 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-302/
+2025-09-20 14:36:50 [batch_news] INFO: Scraped article 77: Your Robot Dev Team (3824 chars, 1 images)
+2025-09-20 14:36:50 [batch_news] INFO: Scraped article 78: Grok's Fixation on South Africa (3145 chars, 1 images)
+2025-09-20 14:36:50 [batch_news] INFO: Scraped article 79: U.S. to Supply Middle Eastern AI Hubs (3615 chars, 1 images)
+2025-09-20 14:36:50 [batch_news] INFO: Scraped article 80: 4-Bit Efficiency, 16-Bit Accuracy (3688 chars, 1 images)
+2025-09-20 14:36:51 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-301/
+2025-09-20 14:36:51 [batch_news] INFO: Scraped article 81: Reasoning Models With Recipes (4674 chars, 1 images)
+2025-09-20 14:36:51 [batch_news] INFO: Scraped article 82: Open, Compact Code Generator (4084 chars, 1 images)
+2025-09-20 14:36:51 [batch_news] INFO: Scraped article 83: EU Loosens AI Regulations (2856 chars, 1 images)
+2025-09-20 14:36:51 [batch_news] INFO: Scraped article 84: Memory Layers for More-Factual Output (4024 chars, 1 images)
+2025-09-20 14:36:52 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-300/
+2025-09-20 14:36:52 [batch_news] INFO: Scraped article 85: Qwen3 Takes On DeepSeek-R1 (4731 chars, 1 images)
+2025-09-20 14:36:52 [batch_news] INFO: Scraped article 86: The User Is Always (5361 chars, 1 images)
+2025-09-20 14:36:52 [batch_news] INFO: Scraped article 87: AI Insights from Big Pharma (3638 chars, 1 images)
+2025-09-20 14:36:52 [batch_news] INFO: Scraped article 88: One Weird Trick for Better Reasoning (3877 chars, 1 images)
+2025-09-20 14:36:53 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-299/
+2025-09-20 14:36:53 [batch_news] INFO: Scraped article 89: New Image Generator for OpenAI API (2605 chars, 1 images)
+2025-09-20 14:36:53 [batch_news] INFO: Scraped article 90: Music Generation for Pros (2085 chars, 1 images)
+2025-09-20 14:36:53 [batch_news] INFO: Scraped article 91: Up-and-Coming Startups (3735 chars, 1 images)
+2025-09-20 14:36:53 [batch_news] INFO: Scraped article 92: Inferring Customer Preferences (3328 chars, 1 images)
+2025-09-20 14:36:54 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-298/
+2025-09-20 14:36:54 [batch_news] INFO: Scraped article 93: OpenAI Launches Cost-Effective Alternatives (4448 chars, 1 images)
+2025-09-20 14:36:54 [batch_news] INFO: Scraped article 94: Hugging Face Rolls Out Open Robot (2306 chars, 1 images)
+2025-09-20 14:36:55 [batch_news] INFO: Scraped article 95: U.S. Tightens Grip on AI Chips (3171 chars, 1 images)
+2025-09-20 14:36:55 [batch_news] INFO: Scraped article 96: Text-Only LLM Goes Multimodal (2941 chars, 1 images)
+2025-09-20 14:36:56 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-297/
+2025-09-20 14:36:56 [batch_news] INFO: Scraped article 97: Google Unveils Gemini 2.5 (3092 chars, 1 images)
+2025-09-20 14:36:56 [batch_news] INFO: Scraped article 98: Open Standard for Tool Use and Data Access Gains Momentum (2127 chars, 1 images)
+2025-09-20 14:36:56 [batch_news] INFO: Scraped article 99: The Fall and Rise of Sam Altman (3125 chars, 1 images)
+2025-09-20 14:36:57 [batch_news] INFO: Scraped article 100: Toward LLMs That Understand Misspellings (5194 chars, 1 images)
+2025-09-20 14:36:57 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-296/
+2025-09-20 14:36:57 [batch_news] INFO: Scraped article 101: Ordinary LLMs Implicitly Take Reasoning Steps (5605 chars, 1 images)
+2025-09-20 14:36:57 [batch_news] INFO: Scraped article 102: Llama's Mixture of Vision-Language Experts (4288 chars, 1 images)
+2025-09-20 14:36:57 [batch_news] INFO: Scraped article 103: Better Multimodal Performance With Open Weights (4802 chars, 1 images)
+2025-09-20 14:36:57 [batch_news] INFO: Scraped article 104: Better Than Trees for Tabular Data (4844 chars, 1 images)
+2025-09-20 14:36:58 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-295/
+2025-09-20 14:36:58 [batch_news] INFO: Scraped article 105: Interactive Voice-to-Voice With Vision (3793 chars, 1 images)
+2025-09-20 14:36:58 [batch_news] INFO: Scraped article 106: Scraping the Web? Beware the Maze (2536 chars, 1 images)
+2025-09-20 14:36:58 [batch_news] INFO: Scraped article 107: Chatbot Use Creates Emotional Bonds (3267 chars, 1 images)
+2025-09-20 14:36:58 [batch_news] INFO: Scraped article 108: Human Action in 3D (4449 chars, 1 images)
+2025-09-20 14:36:59 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-294/
+2025-09-20 14:36:59 [batch_news] INFO: Scraped article 109: Vision-Language, Compact and Open (4549 chars, 1 images)
+2025-09-20 14:36:59 [batch_news] INFO: Scraped article 110: Better Images in Fewer Steps (3020 chars, 1 images)
+2025-09-20 14:36:59 [batch_news] INFO: Scraped article 111: LLM Support for Tutors (3648 chars, 1 images)
+2025-09-20 14:36:59 [batch_news] INFO: Scraped article 112: Faster Learning for Diffusion Models (3699 chars, 1 images)
+2025-09-20 14:37:00 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-293/
+2025-09-20 14:37:00 [batch_news] INFO: Scraped article 113: Equally Fluent in Many Languages (4284 chars, 1 images)
+2025-09-20 14:37:00 [batch_news] INFO: Scraped article 114: Science Research Proposals Made to Order (5081 chars, 1 images)
+2025-09-20 14:37:00 [batch_news] INFO: Scraped article 115: Some AI-Generated Works Are Copyrightable (3558 chars, 1 images)
+2025-09-20 14:37:00 [batch_news] INFO: Scraped article 116: Designer Materials (3372 chars, 1 images)
+2025-09-20 14:37:01 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-292/
+2025-09-20 14:37:01 [batch_news] INFO: Scraped article 117: Compact Reasoning (3679 chars, 1 images)
+2025-09-20 14:37:01 [batch_news] INFO: Scraped article 118: Microsoft Tackles Voice-In, Text-Out (5389 chars, 1 images)
+2025-09-20 14:37:01 [batch_news] INFO: Scraped article 119: Judge Upholds Copyright in AI Training Case (3994 chars, 1 images)
+2025-09-20 14:37:01 [batch_news] INFO: Scraped article 120: DeepSeek-R1 Uncensored (3391 chars, 1 images)
+2025-09-20 14:37:02 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-291/
+2025-09-20 14:37:02 [batch_news] INFO: Scraped article 121: Text Generation by Diffusion (3084 chars, 1 images)
+2025-09-20 14:37:02 [batch_news] INFO: Scraped article 122: OpenAI's GPT-4.5 Goes Big (4121 chars, 1 images)
+2025-09-20 14:37:02 [batch_news] INFO: Scraped article 123: Budget for Reasoning to the Token (5065 chars, 1 images)
+2025-09-20 14:37:02 [batch_news] INFO: Scraped article 124: Amazon's Next-Gen Voice Assistant (3658 chars, 1 images)
+2025-09-20 14:37:03 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-290/
+2025-09-20 14:37:03 [batch_news] INFO: Scraped article 125: Reading Minds, No Brain Implant Required (4031 chars, 1 images)
+2025-09-20 14:37:04 [batch_news] INFO: Scraped article 126: Big AI Spending Continues to Rise (4506 chars, 1 images)
+2025-09-20 14:37:04 [batch_news] INFO: Scraped article 127: Deepfake Developers Appropriate Celebrity Likenesses (3504 chars, 1 images)
+2025-09-20 14:37:04 [batch_news] INFO: Scraped article 128: Reasoning in Vectors, Not Text (4796 chars, 1 images)
+2025-09-20 14:37:04 [batch_news] INFO: Found 15 article links on page https://www.deeplearning.ai/the-batch/page/3/
+2025-09-20 14:37:04 [batch_news] INFO: Issue numbers found (sorted newest first): [289, 288, 287, 286, 285, 284, 283, 282, 281, 280]...
+2025-09-20 14:37:04 [batch_news] INFO: Page 3: processed 13 links, current articles: 128, estimated total: 180, limit: 200, continue pagination: True
+2025-09-20 14:37:05 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-289/
+2025-09-20 14:37:05 [batch_news] INFO: Scraped article 129: Grok 3 Scales Up (3873 chars, 1 images)
+2025-09-20 14:37:06 [batch_news] INFO: Scraped article 130: Mobile Apps to Order (2906 chars, 1 images)
+2025-09-20 14:37:06 [batch_news] INFO: Scraped article 131: Musk Complicates OpenAI's Plan (3969 chars, 1 images)
+2025-09-20 14:37:06 [batch_news] INFO: Scraped article 132: World Powers Move to Lighten AI Regulation (4345 chars, 1 images)
+2025-09-20 14:37:06 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-288/
+2025-09-20 14:37:07 [batch_news] INFO: Scraped article 133: Agents Go Deep (3196 chars, 1 images)
+2025-09-20 14:37:07 [batch_news] INFO: Scraped article 134: Google Joins AI Peers In Military Work (4110 chars, 1 images)
+2025-09-20 14:37:07 [batch_news] INFO: Scraped article 135: Alibaba's Answer to DeepSeek (4198 chars, 1 images)
+2025-09-20 14:37:07 [batch_news] INFO: Scraped article 136: Tree Search for Web Agents (3693 chars, 1 images)
+2025-09-20 14:37:08 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-287/
+2025-09-20 14:37:08 [batch_news] INFO: Scraped article 137: Reasoning in High Gear (4676 chars, 1 images)
+2025-09-20 14:37:08 [batch_news] INFO: Scraped article 138: Training for Computer Use (3850 chars, 1 images)
+2025-09-20 14:37:08 [batch_news] INFO: Scraped article 139: Gemini Thinks Faster (3097 chars, 1 images)
+2025-09-20 14:37:09 [batch_news] INFO: Scraped article 140: Okay, But Please Don't Stop Talking (4477 chars, 1 images)
+2025-09-20 14:37:09 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-285/
+2025-09-20 14:37:09 [batch_news] INFO: Scraped article 141: DeepSeek Sharpens Its Reasoning (5506 chars, 1 images)
+2025-09-20 14:37:10 [batch_news] INFO: Scraped article 142: Humanoid Robot Price Break (3972 chars, 1 images)
+2025-09-20 14:37:10 [batch_news] INFO: Scraped article 143: Texas Moves to Regulate AI (5062 chars, 1 images)
+2025-09-20 14:37:10 [batch_news] INFO: Scraped article 144: Generated Chip Designs Work in Mysterious Ways (3066 chars, 1 images)
+2025-09-20 14:37:10 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-283/
+2025-09-20 14:37:10 [batch_news] INFO: Scraped article 145: What LLM Users Want (3233 chars, 1 images)
+2025-09-20 14:37:10 [batch_news] INFO: Scraped article 146: When Good Models Do Bad Things (9330 chars, 1 images)
+2025-09-20 14:37:11 [batch_news] INFO: Scraped article 147: Massively More Training Text (2171 chars, 1 images)
+2025-09-20 14:37:11 [batch_news] INFO: Scraped article 148: Better Performance From Merged Models (4506 chars, 1 images)
+2025-09-20 14:37:11 [batch_news] WARNING: No News section found on page: https://www.deeplearning.ai/the-batch/issue-282/, using backup extraction
+2025-09-20 14:37:11 [batch_news] INFO: Backup extraction: found 7 h1 headers
+2025-09-20 14:37:11 [batch_news] INFO: Processing 7 articles from https://www.deeplearning.ai/the-batch/issue-282/
+2025-09-20 14:37:11 [batch_news] INFO: Scraped article 149: 2025 Beckons (414 chars, 0 images)
+2025-09-20 14:37:11 [batch_news] INFO: Scraped article 150: Hanno Basse: Generative AI for Artists (1586 chars, 1 images)
+2025-09-20 14:37:12 [batch_news] INFO: Scraped article 151: David Ding: Generated Video With Music, Sound Effects, and Dialogue (3741 chars, 1 images)
+2025-09-20 14:37:12 [batch_news] INFO: Scraped article 152: Joseph Gonzalez: General Intelligence (4639 chars, 1 images)
+2025-09-20 14:37:12 [batch_news] INFO: Scraped article 153: Albert Gu: More Learning, Less Data (4466 chars, 1 images)
+2025-09-20 14:37:13 [batch_news] INFO: Scraped article 154: Mustafa Suleyman: Agents of Action (2883 chars, 1 images)
+2025-09-20 14:37:13 [batch_news] INFO: Scraped article 155: Audrey Tang: AI That Unites Us (2729 chars, 1 images)
+2025-09-20 14:37:13 [batch_news] WARNING: No News section found on page: https://www.deeplearning.ai/the-batch/issue-281/, using backup extraction
+2025-09-20 14:37:13 [batch_news] INFO: Backup extraction: found 7 h1 headers
+2025-09-20 14:37:13 [batch_news] INFO: Processing 7 articles from https://www.deeplearning.ai/the-batch/issue-281/
+2025-09-20 14:37:13 [batch_news] WARNING: Insufficient content for article: Top Stories of 2024
+2025-09-20 14:37:13 [batch_news] INFO: Scraped article 156: A Blizzard of Progress (469 chars, 1 images)
+2025-09-20 14:37:13 [batch_news] INFO: Scraped article 157: Agents Ascendant (3808 chars, 1 images)
+2025-09-20 14:37:13 [batch_news] INFO: Scraped article 158: Prices Tumble (4536 chars, 1 images)
+2025-09-20 14:37:13 [batch_news] INFO: Scraped article 159: Generative Video Takes Off (3669 chars, 1 images)
+2025-09-20 14:37:13 [batch_news] INFO: Scraped article 160: Smaller Is Beautiful (4642 chars, 1 images)
+2025-09-20 14:37:13 [batch_news] INFO: Scraped article 161: Alternatives to Acquisitions (4356 chars, 1 images)
+2025-09-20 14:37:13 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-280/
+2025-09-20 14:37:13 [batch_news] INFO: Scraped article 162: Phi-4 Beats Models Five Times Its Size (3900 chars, 1 images)
+2025-09-20 14:37:14 [batch_news] INFO: Scraped article 163: Open Video Gen Closes the Gap (3297 chars, 1 images)
+2025-09-20 14:37:15 [batch_news] INFO: Scraped article 164: Multimodal Modeling on the Double (4790 chars, 1 images)
+2025-09-20 14:37:15 [batch_news] INFO: Scraped article 165: When LLMs Propose Research Ideas (3955 chars, 1 images)
+2025-09-20 14:37:15 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-279/
+2025-09-20 14:37:16 [batch_news] INFO: Scraped article 166: Competitive Performance, Competitive Prices (5800 chars, 1 images)
+2025-09-20 14:37:16 [batch_news] INFO: Scraped article 167: Higher Reasoning (4020 chars, 1 images)
+2025-09-20 14:37:17 [batch_news] INFO: Scraped article 168: Game Worlds on Tap (2850 chars, 1 images)
+2025-09-20 14:37:17 [batch_news] INFO: Scraped article 169: Getting the Facts Right (3180 chars, 1 images)
+2025-09-20 14:37:17 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-278/
+2025-09-20 14:37:18 [batch_news] INFO: Scraped article 170: Agents Open the Wallet (1839 chars, 1 images)
+2025-09-20 14:37:18 [batch_news] INFO: Scraped article 171: Mistral's Vision-Language Contender (3436 chars, 1 images)
+2025-09-20 14:37:18 [batch_news] INFO: Scraped article 172: Garbage Out (3651 chars, 1 images)
+2025-09-20 14:37:18 [batch_news] INFO: Scraped article 173: Breaking Jailbreaks (3349 chars, 1 images)
+2025-09-20 14:37:18 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-277/
+2025-09-20 14:37:18 [batch_news] INFO: Scraped article 174: Reasoning Revealed (3333 chars, 1 images)
+2025-09-20 14:37:19 [batch_news] INFO: Scraped article 175: Household Help (5538 chars, 1 images)
+2025-09-20 14:37:19 [batch_news] INFO: Scraped article 176: AI Power Couple Recommits (2973 chars, 1 images)
+2025-09-20 14:37:20 [batch_news] INFO: Scraped article 177: Object Detection for Small Devices (4022 chars, 1 images)
+2025-09-20 14:37:20 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-276/
+2025-09-20 14:37:20 [batch_news] INFO: Scraped article 178: Next-Gen Models Show Limited Gains (5572 chars, 1 images)
+2025-09-20 14:37:21 [batch_news] INFO: Scraped article 179: No Game Engine Required (3720 chars, 1 images)
+2025-09-20 14:37:21 [batch_news] INFO: Scraped article 180: Further Chip Restrictions on China (3437 chars, 1 images)
+2025-09-20 14:37:21 [batch_news] INFO: Scraped article 181: More-Efficient Training for Transformers (3215 chars, 1 images)
+2025-09-20 14:37:21 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-275/
+2025-09-20 14:37:21 [batch_news] INFO: Scraped article 182: Mixture of Experts Pulls Ahead (3802 chars, 1 images)
+2025-09-20 14:37:21 [batch_news] INFO: Scraped article 183: Big AI Pursues Military Contracts (3430 chars, 1 images)
+2025-09-20 14:37:22 [batch_news] INFO: Scraped article 184: Voter's Helper (2986 chars, 1 images)
+2025-09-20 14:37:22 [batch_news] INFO: Scraped article 185: Free Agents (3315 chars, 1 images)
+2025-09-20 14:37:22 [batch_news] INFO: Found 15 article links on page https://www.deeplearning.ai/the-batch/page/4/
+2025-09-20 14:37:22 [batch_news] INFO: Issue numbers found (sorted newest first): [274, 273, 272, 271, 270, 269, 268, 267, 266, 265]...
+2025-09-20 14:37:22 [batch_news] INFO: Estimated total articles (201) would exceed limit (200), stopping link processing
+2025-09-20 14:37:22 [batch_news] INFO: Page 4: processed 4 links, current articles: 185, estimated total: 201, limit: 200, continue pagination: False
+2025-09-20 14:37:22 [batch_news] INFO: Stopping pagination at page 4
+2025-09-20 14:37:22 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-274/
+2025-09-20 14:37:23 [batch_news] INFO: Scraped article 186: Claude Controls Computers (3850 chars, 1 images)
+2025-09-20 14:37:23 [batch_news] INFO: Scraped article 187: Robots On the Loading Dock (3333 chars, 1 images)
+2025-09-20 14:37:24 [batch_news] INFO: Scraped article 188: Does Your Model Comply With the AI Act? (5765 chars, 1 images)
+2025-09-20 14:37:24 [batch_news] INFO: Scraped article 189: When Agents Train Algorithms (4053 chars, 1 images)
+2025-09-20 14:37:24 [batch_news] WARNING: No News section found on page: https://www.deeplearning.ai/the-batch/issue-273/, using backup extraction
+2025-09-20 14:37:24 [batch_news] INFO: Backup extraction: found 6 h1 headers
+2025-09-20 14:37:24 [batch_news] INFO: Processing 6 articles from https://www.deeplearning.ai/the-batch/issue-273/
+2025-09-20 14:37:24 [batch_news] INFO: Scraped article 190: Disembodied Spirits Speak (555 chars, 0 images)
+2025-09-20 14:37:25 [batch_news] INFO: Scraped article 191: AI Burns All the Energy (3561 chars, 1 images)
+2025-09-20 14:37:25 [batch_news] INFO: Scraped article 192: Innovation Can't Win (4031 chars, 1 images)
+2025-09-20 14:37:25 [batch_news] INFO: Scraped article 193: No Work for Coders (3325 chars, 1 images)
+2025-09-20 14:37:25 [batch_news] INFO: Scraped article 194: Benchmark Tests Are Meaningless (3433 chars, 1 images)
+2025-09-20 14:37:26 [batch_news] INFO: Scraped article 195: Synthetic Data Distorts Models (3748 chars, 1 images)
+2025-09-20 14:37:26 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-272/
+2025-09-20 14:37:26 [batch_news] INFO: Scraped article 196: AI Giants Go Nuclear (4018 chars, 1 images)
+2025-09-20 14:37:26 [scrapy.extensions.logstats] INFO: Crawled 54 pages (at 54 pages/min), scraped 195 items (at 195 items/min)
+2025-09-20 14:37:26 [batch_news] INFO: Scraped article 197: AI Bromance Turns Turbulent (3752 chars, 1 images)
+2025-09-20 14:37:27 [batch_news] INFO: Scraped article 198: Mistral AI Sharpens the Edge (3483 chars, 1 images)
+2025-09-20 14:37:28 [batch_news] INFO: Scraped article 199: Faster, Cheaper Video Generation (3851 chars, 1 images)
+2025-09-20 14:37:28 [batch_news] INFO: Processing 4 articles from https://www.deeplearning.ai/the-batch/issue-271/
+2025-09-20 14:37:28 [batch_news] INFO: Scraped article 200: Malaysia's Data Center Boom (3076 chars, 1 images)
+2025-09-20 14:37:28 [scrapy.core.engine] INFO: Closing spider (closespider_itemcount)
+2025-09-20 14:37:28 [batch_news] INFO: Spider closed. Scraped 200 articles.
+2025-09-20 14:37:28 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 14900,
+ 'downloader/request_count': 54,
+ 'downloader/request_method_count/GET': 54,
+ 'downloader/response_bytes': 2234757,
+ 'downloader/response_count': 54,
+ 'downloader/response_status_count/200': 54,
+ 'elapsed_time_seconds': 62.109521,
+ 'finish_reason': 'closespider_itemcount',
+ 'finish_time': datetime.datetime(2025, 9, 20, 14, 37, 28, 189569, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 7984597,
+ 'httpcompression/response_count': 54,
+ 'item_scraped_count': 200,
+ 'items_per_minute': 193.54838709677418,
+ 'log_count/INFO': 276,
+ 'log_count/WARNING': 4,
+ 'memusage/max': 147759104,
+ 'memusage/startup': 65183744,
+ 'request_depth_max': 4,
+ 'response_received_count': 54,
+ 'responses_per_minute': 52.258064516129025,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 53,
+ 'scheduler/dequeued/memory': 53,
+ 'scheduler/enqueued': 53,
+ 'scheduler/enqueued/memory': 53,
+ 'start_time': datetime.datetime(2025, 9, 20, 14, 36, 26, 80048, tzinfo=datetime.timezone.utc)}
+2025-09-20 14:37:28 [scrapy.core.engine] INFO: Spider closed (closespider_itemcount)

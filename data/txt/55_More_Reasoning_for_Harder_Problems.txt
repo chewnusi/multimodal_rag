@@ -1,0 +1,17 @@
+OpenAI launched o3-pro, a more capable version of its most advanced reasoning vision-language model.
+
+What's new:  o3-pro is  designed  to respond to difficult challenges involving science, mathematics, and coding. But its reasoning firepower dramatically slows response times.
+
+Input/output:  Text and images in (up to 200,000 tokens), text out (up to 100,000 tokens,  20.7 tokens per second, 129.2 seconds to first token ) Knowledge cutoff:  June 1, 2024 Features:  Function calling including web search, structured output Availability/price:  Available to ChatGPT Pro and Team users via OpenAI API, soon to Enterprise and Edu users, for $20/$80 per 1 million tokens of input/output Undisclosed:  Details about architecture, training data, and training methods
+
+Performance:  o3-pro outperformed OpenAI's own o3 (set to medium effort) and o1-pro in tests performed by OpenAI.
+
+Solving AIME 2024's advanced high-school math competition problems on the first try, o3-pro (93 percent) bested o3 (90 percent) and o1-pro (86 percent). Answering GPQA Diamond's graduate-level science questions on the first try, o3-pro (85 percent) outperformed o3 (81 percent) and o1-pro (79 percent). Completing Codeforces competition-coding problems in one pass, o3-pro (2748  CodeElo ) surpassed o3 (2517 CodeElo) and o1-pro (1707 CodeElo). In qualitative tests, human reviewers consistently preferred o3-pro over o3 for queries related to scientific analysis (64.9 percent), personal writing (66.7 percent), computer programming (62.7 percent), and data analysis (64.3 percent).
+
+What they're saying:  Reviews of o3-pro so far generally are positive, but the model has been criticized for the time it takes to respond. Box CEO Aaron Levie  commented  that o3-pro is "crazy good at math and logic." However, entrepreneur Yuchen Jin  noted  that it's the "slowest and most overthinking model."
+
+Behind the news:  OpenAI rolled out o3-pro with a lower price, $20/$80 per 1 million input/output tokens, than o1-pro (which was priced at $150/$600 per 1 million input/output tokens but was deprecated in favor of the new model). Simultaneously it cut the price of o3 by 80 percent to $2/$8 per 1 million input/output tokens. These moves continue the  plummeting price of inference  over the past year.  DeepSeek-R1  offers performance that approaches that of top models for $0.55/$2.19 per 1 million input/output tokens.
+
+Why it matters:  OpenAI is pushing the limits of current approaches to reasoning, and the results are promising if incremental. o3-pro's extensive reasoning may appeal to developers who are working on the multi-step scientific problems. For many uses, though, the high price and slow speed may be a dealbreaker.
+
+We're thinking:  Letting developers choose between o3 and o3-pro lets them calibrate their computational budget to the difficulty of the task at hand. What if we want to do the same with a trained, open-weights, large language model?  Forcing an LLM to generate "Wait " in its output causes it to keep thinking, and can improve its output significantly.

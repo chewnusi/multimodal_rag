@@ -1,0 +1,1996 @@
+{
+  "1": {
+    "title": "Qwen3-Next Accelerates",
+    "url": "https://www.deeplearning.ai/the-batch/issue-319/",
+    "date": "2025-09-20T14:36:28.753744",
+    "txt_file": "1_Qwen3_Next_Accelerates.txt",
+    "img_files": [
+      "1_Qwen3_Next_Accelerates.png"
+    ],
+    "content_length": 4753
+  },
+  "2": {
+    "title": "States Ban AI-Driven Treatments for Mental Health",
+    "url": "https://www.deeplearning.ai/the-batch/issue-319/",
+    "date": "2025-09-20T14:36:28.865720",
+    "txt_file": "2_States_Ban_AI_Driven_Treatments_for_Mental_Health.txt",
+    "img_files": [
+      "2_States_Ban_AI_Driven_Treatments_for_Mental_Health.jpg"
+    ],
+    "content_length": 3168
+  },
+  "3": {
+    "title": "Drone Swarms Go to War",
+    "url": "https://www.deeplearning.ai/the-batch/issue-319/",
+    "date": "2025-09-20T14:36:29.017074",
+    "txt_file": "3_Drone_Swarms_Go_to_War.txt",
+    "img_files": [
+      "3_Drone_Swarms_Go_to_War.png"
+    ],
+    "content_length": 4010
+  },
+  "4": {
+    "title": "Transformers Energized",
+    "url": "https://www.deeplearning.ai/the-batch/issue-319/",
+    "date": "2025-09-20T14:36:29.162114",
+    "txt_file": "4_Transformers_Energized.txt",
+    "img_files": [
+      "4_Transformers_Energized.png"
+    ],
+    "content_length": 5199
+  },
+  "5": {
+    "title": "Meta, OpenAI Reinforce Guardrails",
+    "url": "https://www.deeplearning.ai/the-batch/issue-318/",
+    "date": "2025-09-20T14:36:29.516691",
+    "txt_file": "5_Meta_OpenAI_Reinforce_Guardrails.txt",
+    "img_files": [
+      "5_Meta_OpenAI_Reinforce_Guardrails.png"
+    ],
+    "content_length": 5040
+  },
+  "6": {
+    "title": "Google Must Share Data With AI Rivals",
+    "url": "https://www.deeplearning.ai/the-batch/issue-318/",
+    "date": "2025-09-20T14:36:29.627979",
+    "txt_file": "6_Google_Must_Share_Data_With_AI_Rivals.txt",
+    "img_files": [
+      "6_Google_Must_Share_Data_With_AI_Rivals.png"
+    ],
+    "content_length": 3464
+  },
+  "7": {
+    "title": "2 Hours With AI Versus 6 With Teacher",
+    "url": "https://www.deeplearning.ai/the-batch/issue-318/",
+    "date": "2025-09-20T14:36:29.815333",
+    "txt_file": "7_2_Hours_With_AI_Versus_6_With_Teacher.txt",
+    "img_files": [
+      "7_2_Hours_With_AI_Versus_6_With_Teacher.png"
+    ],
+    "content_length": 4355
+  },
+  "8": {
+    "title": "10 Million Tokens of Input Context",
+    "url": "https://www.deeplearning.ai/the-batch/issue-318/",
+    "date": "2025-09-20T14:36:29.958997",
+    "txt_file": "8_10_Million_Tokens_of_Input_Context.txt",
+    "img_files": [
+      "8_10_Million_Tokens_of_Input_Context.png"
+    ],
+    "content_length": 3883
+  },
+  "9": {
+    "title": "Chatbot Interviewers Fill More Jobs",
+    "url": "https://www.deeplearning.ai/the-batch/issue-317/",
+    "date": "2025-09-20T14:36:30.494447",
+    "txt_file": "9_Chatbot_Interviewers_Fill_More_Jobs.txt",
+    "img_files": [
+      "9_Chatbot_Interviewers_Fill_More_Jobs.png"
+    ],
+    "content_length": 3525
+  },
+  "10": {
+    "title": "China's Emerging AI Hub",
+    "url": "https://www.deeplearning.ai/the-batch/issue-317/",
+    "date": "2025-09-20T14:36:30.709426",
+    "txt_file": "10_Chinas_Emerging_AI_Hub.txt",
+    "img_files": [
+      "10_Chinas_Emerging_AI_Hub.png"
+    ],
+    "content_length": 3645
+  },
+  "11": {
+    "title": "Gemini's Environmental Impact Measured",
+    "url": "https://www.deeplearning.ai/the-batch/issue-317/",
+    "date": "2025-09-20T14:36:30.843596",
+    "txt_file": "11_Geminis_Environmental_Impact_Measured.txt",
+    "img_files": [
+      "11_Geminis_Environmental_Impact_Measured.png"
+    ],
+    "content_length": 4771
+  },
+  "12": {
+    "title": "Cybersecurity for Agents",
+    "url": "https://www.deeplearning.ai/the-batch/issue-317/",
+    "date": "2025-09-20T14:36:31.094028",
+    "txt_file": "12_Cybersecurity_for_Agents.txt",
+    "img_files": [
+      "12_Cybersecurity_for_Agents.gif"
+    ],
+    "content_length": 3554
+  },
+  "13": {
+    "title": "Proactive AI Assistance for Phones",
+    "url": "https://www.deeplearning.ai/the-batch/issue-316/",
+    "date": "2025-09-20T14:36:31.773048",
+    "txt_file": "13_Proactive_AI_Assistance_for_Phones.txt",
+    "img_files": [
+      "13_Proactive_AI_Assistance_for_Phones.gif"
+    ],
+    "content_length": 2452
+  },
+  "14": {
+    "title": "Mistral Measures LLM Consumption of Energy, Water, and Materials",
+    "url": "https://www.deeplearning.ai/the-batch/issue-316/",
+    "date": "2025-09-20T14:36:31.926366",
+    "txt_file": "14_Mistral_Measures_LLM_Consumption_of_Energy_Water_a.txt",
+    "img_files": [
+      "14_Mistral_Measures_LLM_Consumption_of_Energy_Water_a.png"
+    ],
+    "content_length": 4442
+  },
+  "15": {
+    "title": "Robot Antelope Joins Herd",
+    "url": "https://www.deeplearning.ai/the-batch/issue-316/",
+    "date": "2025-09-20T14:36:32.101014",
+    "txt_file": "15_Robot_Antelope_Joins_Herd.txt",
+    "img_files": [
+      "15_Robot_Antelope_Joins_Herd.png"
+    ],
+    "content_length": 3606
+  },
+  "16": {
+    "title": "Better Image Processing Through Self-Supervised Learning",
+    "url": "https://www.deeplearning.ai/the-batch/issue-316/",
+    "date": "2025-09-20T14:36:32.216247",
+    "txt_file": "16_Better_Image_Processing_Through_Self_Supervised_Le.txt",
+    "img_files": [
+      "16_Better_Image_Processing_Through_Self_Supervised_Le.png"
+    ],
+    "content_length": 4762
+  },
+  "17": {
+    "title": "China Reconsiders U.S. AI Processors",
+    "url": "https://www.deeplearning.ai/the-batch/issue-315/",
+    "date": "2025-09-20T14:36:32.528204",
+    "txt_file": "17_China_Reconsiders_US_AI_Processors.txt",
+    "img_files": [
+      "17_China_Reconsiders_US_AI_Processors.jpg"
+    ],
+    "content_length": 4111
+  },
+  "18": {
+    "title": "Mixture of Video Experts",
+    "url": "https://www.deeplearning.ai/the-batch/issue-315/",
+    "date": "2025-09-20T14:36:33.352629",
+    "txt_file": "18_Mixture_of_Video_Experts.txt",
+    "img_files": [
+      "18_Mixture_of_Video_Experts.gif"
+    ],
+    "content_length": 4113
+  },
+  "19": {
+    "title": "OpenAI Turns to Oracle for Compute",
+    "url": "https://www.deeplearning.ai/the-batch/issue-315/",
+    "date": "2025-09-20T14:36:33.627362",
+    "txt_file": "19_OpenAI_Turns_to_Oracle_for_Compute.txt",
+    "img_files": [
+      "19_OpenAI_Turns_to_Oracle_for_Compute.png"
+    ],
+    "content_length": 2607
+  },
+  "20": {
+    "title": "Does Your Model Generalize or Memorize?",
+    "url": "https://www.deeplearning.ai/the-batch/issue-315/",
+    "date": "2025-09-20T14:36:33.899570",
+    "txt_file": "20_Does_Your_Model_Generalize_or_Memorize.txt",
+    "img_files": [
+      "20_Does_Your_Model_Generalize_or_Memorize.png"
+    ],
+    "content_length": 3933
+  },
+  "21": {
+    "title": "GPT-5 Takeoff Encounters Turbulence",
+    "url": "https://www.deeplearning.ai/the-batch/issue-314/",
+    "date": "2025-09-20T14:36:34.373084",
+    "txt_file": "21_GPT_5_Takeoff_Encounters_Turbulence.txt",
+    "img_files": [
+      "21_GPT_5_Takeoff_Encounters_Turbulence.gif"
+    ],
+    "content_length": 5448
+  },
+  "22": {
+    "title": "India Pushes to Build Indigenous AI",
+    "url": "https://www.deeplearning.ai/the-batch/issue-314/",
+    "date": "2025-09-20T14:36:34.587198",
+    "txt_file": "22_India_Pushes_to_Build_Indigenous_AI.txt",
+    "img_files": [
+      "22_India_Pushes_to_Build_Indigenous_AI.jpg"
+    ],
+    "content_length": 4170
+  },
+  "23": {
+    "title": "AI Video Goes Mainstream",
+    "url": "https://www.deeplearning.ai/the-batch/issue-314/",
+    "date": "2025-09-20T14:36:34.849996",
+    "txt_file": "23_AI_Video_Goes_Mainstream.txt",
+    "img_files": [
+      "23_AI_Video_Goes_Mainstream.png"
+    ],
+    "content_length": 4008
+  },
+  "24": {
+    "title": "Training Data for Coding Assistants",
+    "url": "https://www.deeplearning.ai/the-batch/issue-314/",
+    "date": "2025-09-20T14:36:35.041257",
+    "txt_file": "24_Training_Data_for_Coding_Assistants.txt",
+    "img_files": [
+      "24_Training_Data_for_Coding_Assistants.png"
+    ],
+    "content_length": 3243
+  },
+  "25": {
+    "title": "The Re-Opening of OpenAI",
+    "url": "https://www.deeplearning.ai/the-batch/issue-313/",
+    "date": "2025-09-20T14:36:35.272105",
+    "txt_file": "25_The_Re_Opening_of_OpenAI.txt",
+    "img_files": [
+      "25_The_Re_Opening_of_OpenAI.png"
+    ],
+    "content_length": 4984
+  },
+  "26": {
+    "title": "Reasoning Boosts Carbon Emissions",
+    "url": "https://www.deeplearning.ai/the-batch/issue-313/",
+    "date": "2025-09-20T14:36:35.467971",
+    "txt_file": "26_Reasoning_Boosts_Carbon_Emissions.txt",
+    "img_files": [
+      "26_Reasoning_Boosts_Carbon_Emissions.png"
+    ],
+    "content_length": 4726
+  },
+  "27": {
+    "title": "GLM-4.5, an Open, Agentic Contender",
+    "url": "https://www.deeplearning.ai/the-batch/issue-313/",
+    "date": "2025-09-20T14:36:35.594247",
+    "txt_file": "27_GLM_45_an_Open_Agentic_Contender.txt",
+    "img_files": [
+      "27_GLM_45_an_Open_Agentic_Contender.jpg"
+    ],
+    "content_length": 4395
+  },
+  "28": {
+    "title": "Robot Surgeon Cuts and Clips",
+    "url": "https://www.deeplearning.ai/the-batch/issue-313/",
+    "date": "2025-09-20T14:36:35.780388",
+    "txt_file": "28_Robot_Surgeon_Cuts_and_Clips.txt",
+    "img_files": [
+      "28_Robot_Surgeon_Cuts_and_Clips.png"
+    ],
+    "content_length": 6134
+  },
+  "29": {
+    "title": "White House Resets U.S. AI Policy",
+    "url": "https://www.deeplearning.ai/the-batch/issue-312/",
+    "date": "2025-09-20T14:36:36.099121",
+    "txt_file": "29_White_House_Resets_US_AI_Policy.txt",
+    "img_files": [
+      "29_White_House_Resets_US_AI_Policy.jpg"
+    ],
+    "content_length": 4602
+  },
+  "30": {
+    "title": "Qwen3's Agentic Advance",
+    "url": "https://www.deeplearning.ai/the-batch/issue-312/",
+    "date": "2025-09-20T14:36:36.379759",
+    "txt_file": "30_Qwen3s_Agentic_Advance.txt",
+    "img_files": [
+      "30_Qwen3s_Agentic_Advance.gif"
+    ],
+    "content_length": 5144
+  },
+  "31": {
+    "title": "U.S. Lifts Ban on AI Chips for China",
+    "url": "https://www.deeplearning.ai/the-batch/issue-312/",
+    "date": "2025-09-20T14:36:36.486463",
+    "txt_file": "31_US_Lifts_Ban_on_AI_Chips_for_China.txt",
+    "img_files": [
+      "31_US_Lifts_Ban_on_AI_Chips_for_China.jpg"
+    ],
+    "content_length": 3724
+  },
+  "32": {
+    "title": "People With AI Friends Feel Worse",
+    "url": "https://www.deeplearning.ai/the-batch/issue-312/",
+    "date": "2025-09-20T14:36:36.659826",
+    "txt_file": "32_People_With_AI_Friends_Feel_Worse.txt",
+    "img_files": [
+      "32_People_With_AI_Friends_Feel_Worse.png"
+    ],
+    "content_length": 5040
+  },
+  "33": {
+    "title": "Powers Realign in AI-Assisted Coding",
+    "url": "https://www.deeplearning.ai/the-batch/issue-311/",
+    "date": "2025-09-20T14:36:36.937920",
+    "txt_file": "33_Powers_Realign_in_AI_Assisted_Coding.txt",
+    "img_files": [
+      "33_Powers_Realign_in_AI_Assisted_Coding.jpg"
+    ],
+    "content_length": 3005
+  },
+  "34": {
+    "title": "Born to Be Agentic",
+    "url": "https://www.deeplearning.ai/the-batch/issue-311/",
+    "date": "2025-09-20T14:36:37.121271",
+    "txt_file": "34_Born_to_Be_Agentic.txt",
+    "img_files": [
+      "34_Born_to_Be_Agentic.png"
+    ],
+    "content_length": 4201
+  },
+  "35": {
+    "title": "How to Comply With the EU's AI Act",
+    "url": "https://www.deeplearning.ai/the-batch/issue-311/",
+    "date": "2025-09-20T14:36:37.275265",
+    "txt_file": "35_How_to_Comply_With_the_EUs_AI_Act.txt",
+    "img_files": [
+      "35_How_to_Comply_With_the_EUs_AI_Act.jpg"
+    ],
+    "content_length": 4088
+  },
+  "36": {
+    "title": "Agentic System for Harder Problems",
+    "url": "https://www.deeplearning.ai/the-batch/issue-311/",
+    "date": "2025-09-20T14:36:37.568085",
+    "txt_file": "36_Agentic_System_for_Harder_Problems.txt",
+    "img_files": [
+      "36_Agentic_System_for_Harder_Problems.png"
+    ],
+    "content_length": 4589
+  },
+  "37": {
+    "title": "Grok 4 Shows Impressive Smarts, Questionable Behavior",
+    "url": "https://www.deeplearning.ai/the-batch/issue-310/",
+    "date": "2025-09-20T14:36:37.985095",
+    "txt_file": "37_Grok_4_Shows_Impressive_Smarts_Questionable_Behavi.txt",
+    "img_files": [
+      "37_Grok_4_Shows_Impressive_Smarts_Questionable_Behavi.png"
+    ],
+    "content_length": 4898
+  },
+  "38": {
+    "title": "Meta Lures Talent With Sky-High Pay",
+    "url": "https://www.deeplearning.ai/the-batch/issue-310/",
+    "date": "2025-09-20T14:36:38.366510",
+    "txt_file": "38_Meta_Lures_Talent_With_Sky_High_Pay.txt",
+    "img_files": [
+      "38_Meta_Lures_Talent_With_Sky_High_Pay.jpg"
+    ],
+    "content_length": 3825
+  },
+  "39": {
+    "title": "California Reframes AI Regulations",
+    "url": "https://www.deeplearning.ai/the-batch/issue-310/",
+    "date": "2025-09-20T14:36:38.593252",
+    "txt_file": "39_California_Reframes_AI_Regulations.txt",
+    "img_files": [
+      "39_California_Reframes_AI_Regulations.jpg"
+    ],
+    "content_length": 4047
+  },
+  "40": {
+    "title": "More Robust Multi-Agent Systems",
+    "url": "https://www.deeplearning.ai/the-batch/issue-310/",
+    "date": "2025-09-20T14:36:38.946847",
+    "txt_file": "40_More_Robust_Multi_Agent_Systems.txt",
+    "img_files": [
+      "40_More_Robust_Multi_Agent_Systems.png"
+    ],
+    "content_length": 3612
+  },
+  "41": {
+    "title": "Good Models, Bad Choices",
+    "url": "https://www.deeplearning.ai/the-batch/issue-309/",
+    "date": "2025-09-20T14:36:39.306575",
+    "txt_file": "41_Good_Models_Bad_Choices.txt",
+    "img_files": [
+      "41_Good_Models_Bad_Choices.png"
+    ],
+    "content_length": 5802
+  },
+  "42": {
+    "title": "Robotic Beehive For Healthier Bees",
+    "url": "https://www.deeplearning.ai/the-batch/issue-309/",
+    "date": "2025-09-20T14:36:39.480012",
+    "txt_file": "42_Robotic_Beehive_For_Healthier_Bees.txt",
+    "img_files": [
+      "42_Robotic_Beehive_For_Healthier_Bees.png"
+    ],
+    "content_length": 3518
+  },
+  "43": {
+    "title": "Inside Walmart's AI App Factory",
+    "url": "https://www.deeplearning.ai/the-batch/issue-309/",
+    "date": "2025-09-20T14:36:39.624902",
+    "txt_file": "43_Inside_Walmarts_AI_App_Factory.txt",
+    "img_files": [
+      "43_Inside_Walmarts_AI_App_Factory.jpg"
+    ],
+    "content_length": 3356
+  },
+  "44": {
+    "title": "Generated Data for Training Web Agents",
+    "url": "https://www.deeplearning.ai/the-batch/issue-309/",
+    "date": "2025-09-20T14:36:39.762773",
+    "txt_file": "44_Generated_Data_for_Training_Web_Agents.txt",
+    "img_files": [
+      "44_Generated_Data_for_Training_Web_Agents.png"
+    ],
+    "content_length": 4372
+  },
+  "45": {
+    "title": "Amazon's Constellation of Compute",
+    "url": "https://www.deeplearning.ai/the-batch/issue-308/",
+    "date": "2025-09-20T14:36:40.202259",
+    "txt_file": "45_Amazons_Constellation_of_Compute.txt",
+    "img_files": [
+      "45_Amazons_Constellation_of_Compute.jpg"
+    ],
+    "content_length": 3064
+  },
+  "46": {
+    "title": "Meta's Smart Glasses Come Into Focus",
+    "url": "https://www.deeplearning.ai/the-batch/issue-308/",
+    "date": "2025-09-20T14:36:40.402656",
+    "txt_file": "46_Metas_Smart_Glasses_Come_Into_Focus.txt",
+    "img_files": [
+      "46_Metas_Smart_Glasses_Come_Into_Focus.gif"
+    ],
+    "content_length": 4545
+  },
+  "47": {
+    "title": "AI Weather Prediction Gains Traction",
+    "url": "https://www.deeplearning.ai/the-batch/issue-308/",
+    "date": "2025-09-20T14:36:40.723272",
+    "txt_file": "47_AI_Weather_Prediction_Gains_Traction.txt",
+    "img_files": [
+      "47_AI_Weather_Prediction_Gains_Traction.gif"
+    ],
+    "content_length": 3521
+  },
+  "48": {
+    "title": "Reasoning for No Reason",
+    "url": "https://www.deeplearning.ai/the-batch/issue-308/",
+    "date": "2025-09-20T14:36:40.845614",
+    "txt_file": "48_Reasoning_for_No_Reason.txt",
+    "img_files": [
+      "48_Reasoning_for_No_Reason.png"
+    ],
+    "content_length": 3033
+  },
+  "49": {
+    "title": "Meta Befriends Scale AI",
+    "url": "https://www.deeplearning.ai/the-batch/issue-307/",
+    "date": "2025-09-20T14:36:41.118646",
+    "txt_file": "49_Meta_Befriends_Scale_AI.txt",
+    "img_files": [
+      "49_Meta_Befriends_Scale_AI.jpg"
+    ],
+    "content_length": 3427
+  },
+  "50": {
+    "title": "A Research Agent for All Biology",
+    "url": "https://www.deeplearning.ai/the-batch/issue-307/",
+    "date": "2025-09-20T14:36:42.164262",
+    "txt_file": "50_A_Research_Agent_for_All_Biology.txt",
+    "img_files": [
+      "50_A_Research_Agent_for_All_Biology.gif"
+    ],
+    "content_length": 4147
+  },
+  "51": {
+    "title": "CEOs Look to AI to Replace Workers",
+    "url": "https://www.deeplearning.ai/the-batch/issue-307/",
+    "date": "2025-09-20T14:36:42.301465",
+    "txt_file": "51_CEOs_Look_to_AI_to_Replace_Workers.txt",
+    "img_files": [
+      "51_CEOs_Look_to_AI_to_Replace_Workers.jpg"
+    ],
+    "content_length": 4176
+  },
+  "52": {
+    "title": "Low Precision, High Performance",
+    "url": "https://www.deeplearning.ai/the-batch/issue-307/",
+    "date": "2025-09-20T14:36:41.693667",
+    "txt_file": "52_Low_Precision_High_Performance.txt",
+    "img_files": [
+      "52_Low_Precision_High_Performance.png"
+    ],
+    "content_length": 4836
+  },
+  "53": {
+    "title": "Apple Sharpens Its GenAI Profile",
+    "url": "https://www.deeplearning.ai/the-batch/issue-306/",
+    "date": "2025-09-20T14:36:42.120994",
+    "txt_file": "53_Apple_Sharpens_Its_GenAI_Profile.txt",
+    "img_files": [
+      "53_Apple_Sharpens_Its_GenAI_Profile.gif"
+    ],
+    "content_length": 6257
+  },
+  "54": {
+    "title": "Hollywood Joins AI Copyright Fight",
+    "url": "https://www.deeplearning.ai/the-batch/issue-306/",
+    "date": "2025-09-20T14:36:42.707782",
+    "txt_file": "54_Hollywood_Joins_AI_Copyright_Fight.txt",
+    "img_files": [
+      "54_Hollywood_Joins_AI_Copyright_Fight.gif"
+    ],
+    "content_length": 4219
+  },
+  "55": {
+    "title": "More Reasoning for Harder Problems",
+    "url": "https://www.deeplearning.ai/the-batch/issue-306/",
+    "date": "2025-09-20T14:36:43.049771",
+    "txt_file": "55_More_Reasoning_for_Harder_Problems.txt",
+    "img_files": [
+      "55_More_Reasoning_for_Harder_Problems.gif"
+    ],
+    "content_length": 3066
+  },
+  "56": {
+    "title": "LLM Rights Historical Wrongs",
+    "url": "https://www.deeplearning.ai/the-batch/issue-306/",
+    "date": "2025-09-20T14:36:43.351903",
+    "txt_file": "56_LLM_Rights_Historical_Wrongs.txt",
+    "img_files": [
+      "56_LLM_Rights_Historical_Wrongs.gif"
+    ],
+    "content_length": 3352
+  },
+  "57": {
+    "title": "More Consistent Characters and Styles",
+    "url": "https://www.deeplearning.ai/the-batch/issue-305/",
+    "date": "2025-09-20T14:36:44.675414",
+    "txt_file": "57_More_Consistent_Characters_and_Styles.txt",
+    "img_files": [
+      "57_More_Consistent_Characters_and_Styles.gif"
+    ],
+    "content_length": 3997
+  },
+  "58": {
+    "title": "AI Market Trends in Charts and Graphs",
+    "url": "https://www.deeplearning.ai/the-batch/issue-305/",
+    "date": "2025-09-20T14:36:44.952898",
+    "txt_file": "58_AI_Market_Trends_in_Charts_and_Graphs.txt",
+    "img_files": [
+      "58_AI_Market_Trends_in_Charts_and_Graphs.gif"
+    ],
+    "content_length": 4714
+  },
+  "59": {
+    "title": "Benchmarking Costs Climb",
+    "url": "https://www.deeplearning.ai/the-batch/issue-305/",
+    "date": "2025-09-20T14:36:45.060272",
+    "txt_file": "59_Benchmarking_Costs_Climb.txt",
+    "img_files": [
+      "59_Benchmarking_Costs_Climb.jpg"
+    ],
+    "content_length": 3137
+  },
+  "60": {
+    "title": "Better Video, Fewer Tokens",
+    "url": "https://www.deeplearning.ai/the-batch/issue-305/",
+    "date": "2025-09-20T14:36:45.247843",
+    "txt_file": "60_Better_Video_Fewer_Tokens.txt",
+    "img_files": [
+      "60_Better_Video_Fewer_Tokens.gif"
+    ],
+    "content_length": 3355
+  },
+  "61": {
+    "title": "Next-Level DeepSeek-R1",
+    "url": "https://www.deeplearning.ai/the-batch/issue-304/",
+    "date": "2025-09-20T14:36:45.492668",
+    "txt_file": "61_Next_Level_DeepSeek_R1.txt",
+    "img_files": [
+      "61_Next_Level_DeepSeek_R1.png"
+    ],
+    "content_length": 4008
+  },
+  "62": {
+    "title": "Machine Translation in Action",
+    "url": "https://www.deeplearning.ai/the-batch/issue-304/",
+    "date": "2025-09-20T14:36:45.624650",
+    "txt_file": "62_Machine_Translation_in_Action.txt",
+    "img_files": [
+      "62_Machine_Translation_in_Action.jpg"
+    ],
+    "content_length": 2914
+  },
+  "63": {
+    "title": "AI Uses Energy, AI Saves Energy",
+    "url": "https://www.deeplearning.ai/the-batch/issue-304/",
+    "date": "2025-09-20T14:36:45.740030",
+    "txt_file": "63_AI_Uses_Energy_AI_Saves_Energy.txt",
+    "img_files": [
+      "63_AI_Uses_Energy_AI_Saves_Energy.png"
+    ],
+    "content_length": 5119
+  },
+  "64": {
+    "title": "Phishing for Agents",
+    "url": "https://www.deeplearning.ai/the-batch/issue-304/",
+    "date": "2025-09-20T14:36:45.881933",
+    "txt_file": "64_Phishing_for_Agents.txt",
+    "img_files": [
+      "64_Phishing_for_Agents.png"
+    ],
+    "content_length": 2791
+  },
+  "65": {
+    "title": "Reinforcement Learning Heats Up",
+    "url": "https://www.deeplearning.ai/the-batch/issue-286/",
+    "date": "2025-09-20T14:36:46.231523",
+    "txt_file": "65_Reinforcement_Learning_Heats_Up.txt",
+    "img_files": [
+      "65_Reinforcement_Learning_Heats_Up.png"
+    ],
+    "content_length": 3867
+  },
+  "66": {
+    "title": "Computer Use Gains Momentum",
+    "url": "https://www.deeplearning.ai/the-batch/issue-286/",
+    "date": "2025-09-20T14:36:46.500669",
+    "txt_file": "66_Computer_Use_Gains_Momentum.txt",
+    "img_files": [
+      "66_Computer_Use_Gains_Momentum.gif"
+    ],
+    "content_length": 2991
+  },
+  "67": {
+    "title": "White House Orders Muscular AI Policy",
+    "url": "https://www.deeplearning.ai/the-batch/issue-286/",
+    "date": "2025-09-20T14:36:46.715232",
+    "txt_file": "67_White_House_Orders_Muscular_AI_Policy.txt",
+    "img_files": [
+      "67_White_House_Orders_Muscular_AI_Policy.png"
+    ],
+    "content_length": 3286
+  },
+  "68": {
+    "title": "Fine-Tuning Fine Points",
+    "url": "https://www.deeplearning.ai/the-batch/issue-286/",
+    "date": "2025-09-20T14:36:46.862707",
+    "txt_file": "68_Fine_Tuning_Fine_Points.txt",
+    "img_files": [
+      "68_Fine_Tuning_Fine_Points.png"
+    ],
+    "content_length": 4254
+  },
+  "69": {
+    "title": "DeepSeek Ups the Open Weights Ante",
+    "url": "https://www.deeplearning.ai/the-batch/issue-284/",
+    "date": "2025-09-20T14:36:47.525815",
+    "txt_file": "69_DeepSeek_Ups_the_Open_Weights_Ante.txt",
+    "img_files": [
+      "69_DeepSeek_Ups_the_Open_Weights_Ante.png"
+    ],
+    "content_length": 4698
+  },
+  "70": {
+    "title": "U.S. Moves to Expand AI Export Restrictions",
+    "url": "https://www.deeplearning.ai/the-batch/issue-284/",
+    "date": "2025-09-20T14:36:47.652333",
+    "txt_file": "70_US_Moves_to_Expand_AI_Export_Restrictions.txt",
+    "img_files": [
+      "70_US_Moves_to_Expand_AI_Export_Restrictions.jpg"
+    ],
+    "content_length": 5303
+  },
+  "71": {
+    "title": "AI Supercomputer on Your Desk",
+    "url": "https://www.deeplearning.ai/the-batch/issue-284/",
+    "date": "2025-09-20T14:36:47.746342",
+    "txt_file": "71_AI_Supercomputer_on_Your_Desk.txt",
+    "img_files": [
+      "71_AI_Supercomputer_on_Your_Desk.jpg"
+    ],
+    "content_length": 2439
+  },
+  "72": {
+    "title": "Calibrating Contrast",
+    "url": "https://www.deeplearning.ai/the-batch/issue-284/",
+    "date": "2025-09-20T14:36:47.915771",
+    "txt_file": "72_Calibrating_Contrast.txt",
+    "img_files": [
+      "72_Calibrating_Contrast.gif"
+    ],
+    "content_length": 3232
+  },
+  "73": {
+    "title": "Claude 4 Advances Code Generation",
+    "url": "https://www.deeplearning.ai/the-batch/issue-303/",
+    "date": "2025-09-20T14:36:49.271689",
+    "txt_file": "73_Claude_4_Advances_Code_Generation.txt",
+    "img_files": [
+      "73_Claude_4_Advances_Code_Generation.png"
+    ],
+    "content_length": 3619
+  },
+  "74": {
+    "title": "Google I/O Overdrive",
+    "url": "https://www.deeplearning.ai/the-batch/issue-303/",
+    "date": "2025-09-20T14:36:49.541802",
+    "txt_file": "74_Google_IO_Overdrive.txt",
+    "img_files": [
+      "74_Google_IO_Overdrive.gif"
+    ],
+    "content_length": 4764
+  },
+  "75": {
+    "title": "How DeepSeek Did It",
+    "url": "https://www.deeplearning.ai/the-batch/issue-303/",
+    "date": "2025-09-20T14:36:49.674673",
+    "txt_file": "75_How_DeepSeek_Did_It.txt",
+    "img_files": [
+      "75_How_DeepSeek_Did_It.png"
+    ],
+    "content_length": 3801
+  },
+  "76": {
+    "title": "Did GPT-4o Train on O'Reilly Books?",
+    "url": "https://www.deeplearning.ai/the-batch/issue-303/",
+    "date": "2025-09-20T14:36:49.782778",
+    "txt_file": "76_Did_GPT_4o_Train_on_OReilly_Books.txt",
+    "img_files": [
+      "76_Did_GPT_4o_Train_on_OReilly_Books.png"
+    ],
+    "content_length": 5144
+  },
+  "77": {
+    "title": "Your Robot Dev Team",
+    "url": "https://www.deeplearning.ai/the-batch/issue-302/",
+    "date": "2025-09-20T14:36:50.546477",
+    "txt_file": "77_Your_Robot_Dev_Team.txt",
+    "img_files": [
+      "77_Your_Robot_Dev_Team.gif"
+    ],
+    "content_length": 3824
+  },
+  "78": {
+    "title": "Grok's Fixation on South Africa",
+    "url": "https://www.deeplearning.ai/the-batch/issue-302/",
+    "date": "2025-09-20T14:36:50.658884",
+    "txt_file": "78_Groks_Fixation_on_South_Africa.txt",
+    "img_files": [
+      "78_Groks_Fixation_on_South_Africa.jpg"
+    ],
+    "content_length": 3145
+  },
+  "79": {
+    "title": "U.S. to Supply Middle Eastern AI Hubs",
+    "url": "https://www.deeplearning.ai/the-batch/issue-302/",
+    "date": "2025-09-20T14:36:50.771645",
+    "txt_file": "79_US_to_Supply_Middle_Eastern_AI_Hubs.txt",
+    "img_files": [
+      "79_US_to_Supply_Middle_Eastern_AI_Hubs.jpg"
+    ],
+    "content_length": 3615
+  },
+  "80": {
+    "title": "4-Bit Efficiency, 16-Bit Accuracy",
+    "url": "https://www.deeplearning.ai/the-batch/issue-302/",
+    "date": "2025-09-20T14:36:50.906521",
+    "txt_file": "80_4_Bit_Efficiency_16_Bit_Accuracy.txt",
+    "img_files": [
+      "80_4_Bit_Efficiency_16_Bit_Accuracy.png"
+    ],
+    "content_length": 3688
+  },
+  "81": {
+    "title": "Reasoning Models With Recipes",
+    "url": "https://www.deeplearning.ai/the-batch/issue-301/",
+    "date": "2025-09-20T14:36:51.260620",
+    "txt_file": "81_Reasoning_Models_With_Recipes.txt",
+    "img_files": [
+      "81_Reasoning_Models_With_Recipes.png"
+    ],
+    "content_length": 4674
+  },
+  "82": {
+    "title": "Open, Compact Code Generator",
+    "url": "https://www.deeplearning.ai/the-batch/issue-301/",
+    "date": "2025-09-20T14:36:51.371034",
+    "txt_file": "82_Open_Compact_Code_Generator.txt",
+    "img_files": [
+      "82_Open_Compact_Code_Generator.png"
+    ],
+    "content_length": 4084
+  },
+  "83": {
+    "title": "EU Loosens AI Regulations",
+    "url": "https://www.deeplearning.ai/the-batch/issue-301/",
+    "date": "2025-09-20T14:36:51.495132",
+    "txt_file": "83_EU_Loosens_AI_Regulations.txt",
+    "img_files": [
+      "83_EU_Loosens_AI_Regulations.jpg"
+    ],
+    "content_length": 2856
+  },
+  "84": {
+    "title": "Memory Layers for More-Factual Output",
+    "url": "https://www.deeplearning.ai/the-batch/issue-301/",
+    "date": "2025-09-20T14:36:51.613999",
+    "txt_file": "84_Memory_Layers_for_More_Factual_Output.txt",
+    "img_files": [
+      "84_Memory_Layers_for_More_Factual_Output.png"
+    ],
+    "content_length": 4024
+  },
+  "85": {
+    "title": "Qwen3 Takes On DeepSeek-R1",
+    "url": "https://www.deeplearning.ai/the-batch/issue-300/",
+    "date": "2025-09-20T14:36:52.259634",
+    "txt_file": "85_Qwen3_Takes_On_DeepSeek_R1.txt",
+    "img_files": [
+      "85_Qwen3_Takes_On_DeepSeek_R1.png"
+    ],
+    "content_length": 4731
+  },
+  "86": {
+    "title": "The User Is Always",
+    "url": "https://www.deeplearning.ai/the-batch/issue-300/",
+    "date": "2025-09-20T14:36:52.351510",
+    "txt_file": "86_The_User_Is_Always.txt",
+    "img_files": [
+      "86_The_User_Is_Always.jpg"
+    ],
+    "content_length": 5361
+  },
+  "87": {
+    "title": "AI Insights from Big Pharma",
+    "url": "https://www.deeplearning.ai/the-batch/issue-300/",
+    "date": "2025-09-20T14:36:52.503820",
+    "txt_file": "87_AI_Insights_from_Big_Pharma.txt",
+    "img_files": [
+      "87_AI_Insights_from_Big_Pharma.png"
+    ],
+    "content_length": 3638
+  },
+  "88": {
+    "title": "One Weird Trick for Better Reasoning",
+    "url": "https://www.deeplearning.ai/the-batch/issue-300/",
+    "date": "2025-09-20T14:36:52.615125",
+    "txt_file": "88_One_Weird_Trick_for_Better_Reasoning.txt",
+    "img_files": [
+      "88_One_Weird_Trick_for_Better_Reasoning.png"
+    ],
+    "content_length": 3877
+  },
+  "89": {
+    "title": "New Image Generator for OpenAI API",
+    "url": "https://www.deeplearning.ai/the-batch/issue-299/",
+    "date": "2025-09-20T14:36:53.565992",
+    "txt_file": "89_New_Image_Generator_for_OpenAI_API.txt",
+    "img_files": [
+      "89_New_Image_Generator_for_OpenAI_API.gif"
+    ],
+    "content_length": 2605
+  },
+  "90": {
+    "title": "Music Generation for Pros",
+    "url": "https://www.deeplearning.ai/the-batch/issue-299/",
+    "date": "2025-09-20T14:36:53.709234",
+    "txt_file": "90_Music_Generation_for_Pros.txt",
+    "img_files": [
+      "90_Music_Generation_for_Pros.gif"
+    ],
+    "content_length": 2085
+  },
+  "91": {
+    "title": "Up-and-Coming Startups",
+    "url": "https://www.deeplearning.ai/the-batch/issue-299/",
+    "date": "2025-09-20T14:36:53.848443",
+    "txt_file": "91_Up_and_Coming_Startups.txt",
+    "img_files": [
+      "91_Up_and_Coming_Startups.png"
+    ],
+    "content_length": 3735
+  },
+  "92": {
+    "title": "Inferring Customer Preferences",
+    "url": "https://www.deeplearning.ai/the-batch/issue-299/",
+    "date": "2025-09-20T14:36:53.961951",
+    "txt_file": "92_Inferring_Customer_Preferences.txt",
+    "img_files": [
+      "92_Inferring_Customer_Preferences.png"
+    ],
+    "content_length": 3328
+  },
+  "93": {
+    "title": "OpenAI Launches Cost-Effective Alternatives",
+    "url": "https://www.deeplearning.ai/the-batch/issue-298/",
+    "date": "2025-09-20T14:36:54.304082",
+    "txt_file": "93_OpenAI_Launches_Cost_Effective_Alternatives.txt",
+    "img_files": [
+      "93_OpenAI_Launches_Cost_Effective_Alternatives.jpg"
+    ],
+    "content_length": 4448
+  },
+  "94": {
+    "title": "Hugging Face Rolls Out Open Robot",
+    "url": "https://www.deeplearning.ai/the-batch/issue-298/",
+    "date": "2025-09-20T14:36:54.468760",
+    "txt_file": "94_Hugging_Face_Rolls_Out_Open_Robot.txt",
+    "img_files": [
+      "94_Hugging_Face_Rolls_Out_Open_Robot.png"
+    ],
+    "content_length": 2306
+  },
+  "95": {
+    "title": "U.S. Tightens Grip on AI Chips",
+    "url": "https://www.deeplearning.ai/the-batch/issue-298/",
+    "date": "2025-09-20T14:36:55.746190",
+    "txt_file": "95_US_Tightens_Grip_on_AI_Chips.txt",
+    "img_files": [
+      "95_US_Tightens_Grip_on_AI_Chips.png"
+    ],
+    "content_length": 3171
+  },
+  "96": {
+    "title": "Text-Only LLM Goes Multimodal",
+    "url": "https://www.deeplearning.ai/the-batch/issue-298/",
+    "date": "2025-09-20T14:36:55.950139",
+    "txt_file": "96_Text_Only_LLM_Goes_Multimodal.txt",
+    "img_files": [
+      "96_Text_Only_LLM_Goes_Multimodal.png"
+    ],
+    "content_length": 2941
+  },
+  "97": {
+    "title": "Google Unveils Gemini 2.5",
+    "url": "https://www.deeplearning.ai/the-batch/issue-297/",
+    "date": "2025-09-20T14:36:56.536302",
+    "txt_file": "97_Google_Unveils_Gemini_25.txt",
+    "img_files": [
+      "97_Google_Unveils_Gemini_25.png"
+    ],
+    "content_length": 3092
+  },
+  "98": {
+    "title": "Open Standard for Tool Use and Data Access Gains Momentum",
+    "url": "https://www.deeplearning.ai/the-batch/issue-297/",
+    "date": "2025-09-20T14:36:56.790071",
+    "txt_file": "98_Open_Standard_for_Tool_Use_and_Data_Access_Gains_M.txt",
+    "img_files": [
+      "98_Open_Standard_for_Tool_Use_and_Data_Access_Gains_M.jpg"
+    ],
+    "content_length": 2127
+  },
+  "99": {
+    "title": "The Fall and Rise of Sam Altman",
+    "url": "https://www.deeplearning.ai/the-batch/issue-297/",
+    "date": "2025-09-20T14:36:56.880548",
+    "txt_file": "99_The_Fall_and_Rise_of_Sam_Altman.txt",
+    "img_files": [
+      "99_The_Fall_and_Rise_of_Sam_Altman.jpg"
+    ],
+    "content_length": 3125
+  },
+  "100": {
+    "title": "Toward LLMs That Understand Misspellings",
+    "url": "https://www.deeplearning.ai/the-batch/issue-297/",
+    "date": "2025-09-20T14:36:57.013233",
+    "txt_file": "100_Toward_LLMs_That_Understand_Misspellings.txt",
+    "img_files": [
+      "100_Toward_LLMs_That_Understand_Misspellings.png"
+    ],
+    "content_length": 5194
+  },
+  "101": {
+    "title": "Ordinary LLMs Implicitly Take Reasoning Steps",
+    "url": "https://www.deeplearning.ai/the-batch/issue-296/",
+    "date": "2025-09-20T14:36:57.442731",
+    "txt_file": "101_Ordinary_LLMs_Implicitly_Take_Reasoning_Steps.txt",
+    "img_files": [
+      "101_Ordinary_LLMs_Implicitly_Take_Reasoning_Steps.gif"
+    ],
+    "content_length": 5605
+  },
+  "102": {
+    "title": "Llama's Mixture of Vision-Language Experts",
+    "url": "https://www.deeplearning.ai/the-batch/issue-296/",
+    "date": "2025-09-20T14:36:57.654960",
+    "txt_file": "102_Llamas_Mixture_of_Vision_Language_Experts.txt",
+    "img_files": [
+      "102_Llamas_Mixture_of_Vision_Language_Experts.gif"
+    ],
+    "content_length": 4288
+  },
+  "103": {
+    "title": "Better Multimodal Performance With Open Weights",
+    "url": "https://www.deeplearning.ai/the-batch/issue-296/",
+    "date": "2025-09-20T14:36:57.809140",
+    "txt_file": "103_Better_Multimodal_Performance_With_Open_Weights.txt",
+    "img_files": [
+      "103_Better_Multimodal_Performance_With_Open_Weights.png"
+    ],
+    "content_length": 4802
+  },
+  "104": {
+    "title": "Better Than Trees for Tabular Data",
+    "url": "https://www.deeplearning.ai/the-batch/issue-296/",
+    "date": "2025-09-20T14:36:57.967943",
+    "txt_file": "104_Better_Than_Trees_for_Tabular_Data.txt",
+    "img_files": [
+      "104_Better_Than_Trees_for_Tabular_Data.png"
+    ],
+    "content_length": 4844
+  },
+  "105": {
+    "title": "Interactive Voice-to-Voice With Vision",
+    "url": "https://www.deeplearning.ai/the-batch/issue-295/",
+    "date": "2025-09-20T14:36:58.300221",
+    "txt_file": "105_Interactive_Voice_to_Voice_With_Vision.txt",
+    "img_files": [
+      "105_Interactive_Voice_to_Voice_With_Vision.png"
+    ],
+    "content_length": 3793
+  },
+  "106": {
+    "title": "Scraping the Web? Beware the Maze",
+    "url": "https://www.deeplearning.ai/the-batch/issue-295/",
+    "date": "2025-09-20T14:36:58.432900",
+    "txt_file": "106_Scraping_the_Web_Beware_the_Maze.txt",
+    "img_files": [
+      "106_Scraping_the_Web_Beware_the_Maze.png"
+    ],
+    "content_length": 2536
+  },
+  "107": {
+    "title": "Chatbot Use Creates Emotional Bonds",
+    "url": "https://www.deeplearning.ai/the-batch/issue-295/",
+    "date": "2025-09-20T14:36:58.580944",
+    "txt_file": "107_Chatbot_Use_Creates_Emotional_Bonds.txt",
+    "img_files": [
+      "107_Chatbot_Use_Creates_Emotional_Bonds.png"
+    ],
+    "content_length": 3267
+  },
+  "108": {
+    "title": "Human Action in 3D",
+    "url": "https://www.deeplearning.ai/the-batch/issue-295/",
+    "date": "2025-09-20T14:36:58.802027",
+    "txt_file": "108_Human_Action_in_3D.txt",
+    "img_files": [
+      "108_Human_Action_in_3D.gif"
+    ],
+    "content_length": 4449
+  },
+  "109": {
+    "title": "Vision-Language, Compact and Open",
+    "url": "https://www.deeplearning.ai/the-batch/issue-294/",
+    "date": "2025-09-20T14:36:59.126962",
+    "txt_file": "109_Vision_Language_Compact_and_Open.txt",
+    "img_files": [
+      "109_Vision_Language_Compact_and_Open.png"
+    ],
+    "content_length": 4549
+  },
+  "110": {
+    "title": "Better Images in Fewer Steps",
+    "url": "https://www.deeplearning.ai/the-batch/issue-294/",
+    "date": "2025-09-20T14:36:59.236854",
+    "txt_file": "110_Better_Images_in_Fewer_Steps.txt",
+    "img_files": [
+      "110_Better_Images_in_Fewer_Steps.png"
+    ],
+    "content_length": 3020
+  },
+  "111": {
+    "title": "LLM Support for Tutors",
+    "url": "https://www.deeplearning.ai/the-batch/issue-294/",
+    "date": "2025-09-20T14:36:59.391133",
+    "txt_file": "111_LLM_Support_for_Tutors.txt",
+    "img_files": [
+      "111_LLM_Support_for_Tutors.png"
+    ],
+    "content_length": 3648
+  },
+  "112": {
+    "title": "Faster Learning for Diffusion Models",
+    "url": "https://www.deeplearning.ai/the-batch/issue-294/",
+    "date": "2025-09-20T14:36:59.553675",
+    "txt_file": "112_Faster_Learning_for_Diffusion_Models.txt",
+    "img_files": [
+      "112_Faster_Learning_for_Diffusion_Models.gif"
+    ],
+    "content_length": 3699
+  },
+  "113": {
+    "title": "Equally Fluent in Many Languages",
+    "url": "https://www.deeplearning.ai/the-batch/issue-293/",
+    "date": "2025-09-20T14:37:00.192705",
+    "txt_file": "113_Equally_Fluent_in_Many_Languages.txt",
+    "img_files": [
+      "113_Equally_Fluent_in_Many_Languages.png"
+    ],
+    "content_length": 4284
+  },
+  "114": {
+    "title": "Science Research Proposals Made to Order",
+    "url": "https://www.deeplearning.ai/the-batch/issue-293/",
+    "date": "2025-09-20T14:37:00.320974",
+    "txt_file": "114_Science_Research_Proposals_Made_to_Order.txt",
+    "img_files": [
+      "114_Science_Research_Proposals_Made_to_Order.png"
+    ],
+    "content_length": 5081
+  },
+  "115": {
+    "title": "Some AI-Generated Works Are Copyrightable",
+    "url": "https://www.deeplearning.ai/the-batch/issue-293/",
+    "date": "2025-09-20T14:37:00.511718",
+    "txt_file": "115_Some_AI_Generated_Works_Are_Copyrightable.txt",
+    "img_files": [
+      "115_Some_AI_Generated_Works_Are_Copyrightable.gif"
+    ],
+    "content_length": 3558
+  },
+  "116": {
+    "title": "Designer Materials",
+    "url": "https://www.deeplearning.ai/the-batch/issue-293/",
+    "date": "2025-09-20T14:37:00.647357",
+    "txt_file": "116_Designer_Materials.txt",
+    "img_files": [
+      "116_Designer_Materials.png"
+    ],
+    "content_length": 3372
+  },
+  "117": {
+    "title": "Compact Reasoning",
+    "url": "https://www.deeplearning.ai/the-batch/issue-292/",
+    "date": "2025-09-20T14:37:01.134759",
+    "txt_file": "117_Compact_Reasoning.txt",
+    "img_files": [
+      "117_Compact_Reasoning.png"
+    ],
+    "content_length": 3679
+  },
+  "118": {
+    "title": "Microsoft Tackles Voice-In, Text-Out",
+    "url": "https://www.deeplearning.ai/the-batch/issue-292/",
+    "date": "2025-09-20T14:37:01.276215",
+    "txt_file": "118_Microsoft_Tackles_Voice_In_Text_Out.txt",
+    "img_files": [
+      "118_Microsoft_Tackles_Voice_In_Text_Out.png"
+    ],
+    "content_length": 5389
+  },
+  "119": {
+    "title": "Judge Upholds Copyright in AI Training Case",
+    "url": "https://www.deeplearning.ai/the-batch/issue-292/",
+    "date": "2025-09-20T14:37:01.378507",
+    "txt_file": "119_Judge_Upholds_Copyright_in_AI_Training_Case.txt",
+    "img_files": [
+      "119_Judge_Upholds_Copyright_in_AI_Training_Case.jpg"
+    ],
+    "content_length": 3994
+  },
+  "120": {
+    "title": "DeepSeek-R1 Uncensored",
+    "url": "https://www.deeplearning.ai/the-batch/issue-292/",
+    "date": "2025-09-20T14:37:01.498172",
+    "txt_file": "120_DeepSeek_R1_Uncensored.txt",
+    "img_files": [
+      "120_DeepSeek_R1_Uncensored.png"
+    ],
+    "content_length": 3391
+  },
+  "121": {
+    "title": "Text Generation by Diffusion",
+    "url": "https://www.deeplearning.ai/the-batch/issue-291/",
+    "date": "2025-09-20T14:37:02.159616",
+    "txt_file": "121_Text_Generation_by_Diffusion.txt",
+    "img_files": [
+      "121_Text_Generation_by_Diffusion.png"
+    ],
+    "content_length": 3084
+  },
+  "122": {
+    "title": "OpenAI's GPT-4.5 Goes Big",
+    "url": "https://www.deeplearning.ai/the-batch/issue-291/",
+    "date": "2025-09-20T14:37:02.270681",
+    "txt_file": "122_OpenAIs_GPT_45_Goes_Big.txt",
+    "img_files": [
+      "122_OpenAIs_GPT_45_Goes_Big.png"
+    ],
+    "content_length": 4121
+  },
+  "123": {
+    "title": "Budget for Reasoning to the Token",
+    "url": "https://www.deeplearning.ai/the-batch/issue-291/",
+    "date": "2025-09-20T14:37:02.394905",
+    "txt_file": "123_Budget_for_Reasoning_to_the_Token.txt",
+    "img_files": [
+      "123_Budget_for_Reasoning_to_the_Token.png"
+    ],
+    "content_length": 5065
+  },
+  "124": {
+    "title": "Amazon's Next-Gen Voice Assistant",
+    "url": "https://www.deeplearning.ai/the-batch/issue-291/",
+    "date": "2025-09-20T14:37:02.876348",
+    "txt_file": "124_Amazons_Next_Gen_Voice_Assistant.txt",
+    "img_files": [
+      "124_Amazons_Next_Gen_Voice_Assistant.gif"
+    ],
+    "content_length": 3658
+  },
+  "125": {
+    "title": "Reading Minds, No Brain Implant Required",
+    "url": "https://www.deeplearning.ai/the-batch/issue-290/",
+    "date": "2025-09-20T14:37:03.357663",
+    "txt_file": "125_Reading_Minds_No_Brain_Implant_Required.txt",
+    "img_files": [
+      "125_Reading_Minds_No_Brain_Implant_Required.gif"
+    ],
+    "content_length": 4031
+  },
+  "126": {
+    "title": "Big AI Spending Continues to Rise",
+    "url": "https://www.deeplearning.ai/the-batch/issue-290/",
+    "date": "2025-09-20T14:37:04.101730",
+    "txt_file": "126_Big_AI_Spending_Continues_to_Rise.txt",
+    "img_files": [
+      "126_Big_AI_Spending_Continues_to_Rise.jpg"
+    ],
+    "content_length": 4506
+  },
+  "127": {
+    "title": "Deepfake Developers Appropriate Celebrity Likenesses",
+    "url": "https://www.deeplearning.ai/the-batch/issue-290/",
+    "date": "2025-09-20T14:37:04.200201",
+    "txt_file": "127_Deepfake_Developers_Appropriate_Celebrity_Likeness.txt",
+    "img_files": [
+      "127_Deepfake_Developers_Appropriate_Celebrity_Likeness.png"
+    ],
+    "content_length": 3504
+  },
+  "128": {
+    "title": "Reasoning in Vectors, Not Text",
+    "url": "https://www.deeplearning.ai/the-batch/issue-290/",
+    "date": "2025-09-20T14:37:04.405796",
+    "txt_file": "128_Reasoning_in_Vectors_Not_Text.txt",
+    "img_files": [
+      "128_Reasoning_in_Vectors_Not_Text.gif"
+    ],
+    "content_length": 4796
+  },
+  "129": {
+    "title": "Grok 3 Scales Up",
+    "url": "https://www.deeplearning.ai/the-batch/issue-289/",
+    "date": "2025-09-20T14:37:05.400175",
+    "txt_file": "129_Grok_3_Scales_Up.txt",
+    "img_files": [
+      "129_Grok_3_Scales_Up.png"
+    ],
+    "content_length": 3873
+  },
+  "130": {
+    "title": "Mobile Apps to Order",
+    "url": "https://www.deeplearning.ai/the-batch/issue-289/",
+    "date": "2025-09-20T14:37:06.279065",
+    "txt_file": "130_Mobile_Apps_to_Order.txt",
+    "img_files": [],
+    "content_length": 2906
+  },
+  "131": {
+    "title": "Musk Complicates OpenAI's Plan",
+    "url": "https://www.deeplearning.ai/the-batch/issue-289/",
+    "date": "2025-09-20T14:37:06.384814",
+    "txt_file": "131_Musk_Complicates_OpenAIs_Plan.txt",
+    "img_files": [
+      "131_Musk_Complicates_OpenAIs_Plan.jpg"
+    ],
+    "content_length": 3969
+  },
+  "132": {
+    "title": "World Powers Move to Lighten AI Regulation",
+    "url": "https://www.deeplearning.ai/the-batch/issue-289/",
+    "date": "2025-09-20T14:37:06.621669",
+    "txt_file": "132_World_Powers_Move_to_Lighten_AI_Regulation.txt",
+    "img_files": [
+      "132_World_Powers_Move_to_Lighten_AI_Regulation.png"
+    ],
+    "content_length": 4345
+  },
+  "133": {
+    "title": "Agents Go Deep",
+    "url": "https://www.deeplearning.ai/the-batch/issue-288/",
+    "date": "2025-09-20T14:37:07.027977",
+    "txt_file": "133_Agents_Go_Deep.txt",
+    "img_files": [
+      "133_Agents_Go_Deep.gif"
+    ],
+    "content_length": 3196
+  },
+  "134": {
+    "title": "Google Joins AI Peers In Military Work",
+    "url": "https://www.deeplearning.ai/the-batch/issue-288/",
+    "date": "2025-09-20T14:37:07.121987",
+    "txt_file": "134_Google_Joins_AI_Peers_In_Military_Work.txt",
+    "img_files": [
+      "134_Google_Joins_AI_Peers_In_Military_Work.jpg"
+    ],
+    "content_length": 4110
+  },
+  "135": {
+    "title": "Alibaba's Answer to DeepSeek",
+    "url": "https://www.deeplearning.ai/the-batch/issue-288/",
+    "date": "2025-09-20T14:37:07.619283",
+    "txt_file": "135_Alibabas_Answer_to_DeepSeek.txt",
+    "img_files": [
+      "135_Alibabas_Answer_to_DeepSeek.gif"
+    ],
+    "content_length": 4198
+  },
+  "136": {
+    "title": "Tree Search for Web Agents",
+    "url": "https://www.deeplearning.ai/the-batch/issue-288/",
+    "date": "2025-09-20T14:37:07.920541",
+    "txt_file": "136_Tree_Search_for_Web_Agents.txt",
+    "img_files": [
+      "136_Tree_Search_for_Web_Agents.gif"
+    ],
+    "content_length": 3693
+  },
+  "137": {
+    "title": "Reasoning in High Gear",
+    "url": "https://www.deeplearning.ai/the-batch/issue-287/",
+    "date": "2025-09-20T14:37:08.473009",
+    "txt_file": "137_Reasoning_in_High_Gear.txt",
+    "img_files": [
+      "137_Reasoning_in_High_Gear.gif"
+    ],
+    "content_length": 4676
+  },
+  "138": {
+    "title": "Training for Computer Use",
+    "url": "https://www.deeplearning.ai/the-batch/issue-287/",
+    "date": "2025-09-20T14:37:08.753386",
+    "txt_file": "138_Training_for_Computer_Use.txt",
+    "img_files": [
+      "138_Training_for_Computer_Use.png"
+    ],
+    "content_length": 3850
+  },
+  "139": {
+    "title": "Gemini Thinks Faster",
+    "url": "https://www.deeplearning.ai/the-batch/issue-287/",
+    "date": "2025-09-20T14:37:08.960688",
+    "txt_file": "139_Gemini_Thinks_Faster.txt",
+    "img_files": [
+      "139_Gemini_Thinks_Faster.png"
+    ],
+    "content_length": 3097
+  },
+  "140": {
+    "title": "Okay, But Please Don't Stop Talking",
+    "url": "https://www.deeplearning.ai/the-batch/issue-287/",
+    "date": "2025-09-20T14:37:09.171900",
+    "txt_file": "140_Okay_But_Please_Dont_Stop_Talking.txt",
+    "img_files": [
+      "140_Okay_But_Please_Dont_Stop_Talking.gif"
+    ],
+    "content_length": 4477
+  },
+  "141": {
+    "title": "DeepSeek Sharpens Its Reasoning",
+    "url": "https://www.deeplearning.ai/the-batch/issue-285/",
+    "date": "2025-09-20T14:37:09.561695",
+    "txt_file": "141_DeepSeek_Sharpens_Its_Reasoning.txt",
+    "img_files": [
+      "141_DeepSeek_Sharpens_Its_Reasoning.png"
+    ],
+    "content_length": 5506
+  },
+  "142": {
+    "title": "Humanoid Robot Price Break",
+    "url": "https://www.deeplearning.ai/the-batch/issue-285/",
+    "date": "2025-09-20T14:37:10.232330",
+    "txt_file": "142_Humanoid_Robot_Price_Break.txt",
+    "img_files": [
+      "142_Humanoid_Robot_Price_Break.gif"
+    ],
+    "content_length": 3972
+  },
+  "143": {
+    "title": "Texas Moves to Regulate AI",
+    "url": "https://www.deeplearning.ai/the-batch/issue-285/",
+    "date": "2025-09-20T14:37:10.347888",
+    "txt_file": "143_Texas_Moves_to_Regulate_AI.txt",
+    "img_files": [
+      "143_Texas_Moves_to_Regulate_AI.jpg"
+    ],
+    "content_length": 5062
+  },
+  "144": {
+    "title": "Generated Chip Designs Work in Mysterious Ways",
+    "url": "https://www.deeplearning.ai/the-batch/issue-285/",
+    "date": "2025-09-20T14:37:10.490684",
+    "txt_file": "144_Generated_Chip_Designs_Work_in_Mysterious_Ways.txt",
+    "img_files": [
+      "144_Generated_Chip_Designs_Work_in_Mysterious_Ways.png"
+    ],
+    "content_length": 3066
+  },
+  "145": {
+    "title": "What LLM Users Want",
+    "url": "https://www.deeplearning.ai/the-batch/issue-283/",
+    "date": "2025-09-20T14:37:10.809091",
+    "txt_file": "145_What_LLM_Users_Want.txt",
+    "img_files": [
+      "145_What_LLM_Users_Want.png"
+    ],
+    "content_length": 3233
+  },
+  "146": {
+    "title": "When Good Models Do Bad Things",
+    "url": "https://www.deeplearning.ai/the-batch/issue-283/",
+    "date": "2025-09-20T14:37:10.977236",
+    "txt_file": "146_When_Good_Models_Do_Bad_Things.txt",
+    "img_files": [
+      "146_When_Good_Models_Do_Bad_Things.png"
+    ],
+    "content_length": 9330
+  },
+  "147": {
+    "title": "Massively More Training Text",
+    "url": "https://www.deeplearning.ai/the-batch/issue-283/",
+    "date": "2025-09-20T14:37:11.176479",
+    "txt_file": "147_Massively_More_Training_Text.txt",
+    "img_files": [
+      "147_Massively_More_Training_Text.png"
+    ],
+    "content_length": 2171
+  },
+  "148": {
+    "title": "Better Performance From Merged Models",
+    "url": "https://www.deeplearning.ai/the-batch/issue-283/",
+    "date": "2025-09-20T14:37:11.478520",
+    "txt_file": "148_Better_Performance_From_Merged_Models.txt",
+    "img_files": [
+      "148_Better_Performance_From_Merged_Models.gif"
+    ],
+    "content_length": 4506
+  },
+  "149": {
+    "title": "2025 Beckons",
+    "url": "https://www.deeplearning.ai/the-batch/issue-282/",
+    "date": "2025-09-20T14:37:11.687549",
+    "txt_file": "149_2025_Beckons.txt",
+    "img_files": [],
+    "content_length": 414
+  },
+  "150": {
+    "title": "Hanno Basse: Generative AI for Artists",
+    "url": "https://www.deeplearning.ai/the-batch/issue-282/",
+    "date": "2025-09-20T14:37:11.985458",
+    "txt_file": "150_Hanno_Basse_Generative_AI_for_Artists.txt",
+    "img_files": [
+      "150_Hanno_Basse_Generative_AI_for_Artists.png"
+    ],
+    "content_length": 1586
+  },
+  "151": {
+    "title": "David Ding: Generated Video With Music, Sound Effects, and Dialogue",
+    "url": "https://www.deeplearning.ai/the-batch/issue-282/",
+    "date": "2025-09-20T14:37:12.270358",
+    "txt_file": "151_David_Ding_Generated_Video_With_Music_Sound_Effect.txt",
+    "img_files": [
+      "151_David_Ding_Generated_Video_With_Music_Sound_Effect.png"
+    ],
+    "content_length": 3741
+  },
+  "152": {
+    "title": "Joseph Gonzalez: General Intelligence",
+    "url": "https://www.deeplearning.ai/the-batch/issue-282/",
+    "date": "2025-09-20T14:37:12.622841",
+    "txt_file": "152_Joseph_Gonzalez_General_Intelligence.txt",
+    "img_files": [
+      "152_Joseph_Gonzalez_General_Intelligence.png"
+    ],
+    "content_length": 4639
+  },
+  "153": {
+    "title": "Albert Gu: More Learning, Less Data",
+    "url": "https://www.deeplearning.ai/the-batch/issue-282/",
+    "date": "2025-09-20T14:37:12.844495",
+    "txt_file": "153_Albert_Gu_More_Learning_Less_Data.txt",
+    "img_files": [
+      "153_Albert_Gu_More_Learning_Less_Data.png"
+    ],
+    "content_length": 4466
+  },
+  "154": {
+    "title": "Mustafa Suleyman: Agents of Action",
+    "url": "https://www.deeplearning.ai/the-batch/issue-282/",
+    "date": "2025-09-20T14:37:13.112379",
+    "txt_file": "154_Mustafa_Suleyman_Agents_of_Action.txt",
+    "img_files": [
+      "154_Mustafa_Suleyman_Agents_of_Action.png"
+    ],
+    "content_length": 2883
+  },
+  "155": {
+    "title": "Audrey Tang: AI That Unites Us",
+    "url": "https://www.deeplearning.ai/the-batch/issue-282/",
+    "date": "2025-09-20T14:37:13.379817",
+    "txt_file": "155_Audrey_Tang_AI_That_Unites_Us.txt",
+    "img_files": [
+      "155_Audrey_Tang_AI_That_Unites_Us.png"
+    ],
+    "content_length": 2729
+  },
+  "156": {
+    "title": "A Blizzard of Progress",
+    "url": "https://www.deeplearning.ai/the-batch/issue-281/",
+    "date": "2025-09-20T14:37:13.610867",
+    "txt_file": "156_A_Blizzard_of_Progress.txt",
+    "img_files": [
+      "156_A_Blizzard_of_Progress.jpg"
+    ],
+    "content_length": 469
+  },
+  "157": {
+    "title": "Agents Ascendant",
+    "url": "https://www.deeplearning.ai/the-batch/issue-281/",
+    "date": "2025-09-20T14:37:13.727898",
+    "txt_file": "157_Agents_Ascendant.txt",
+    "img_files": [
+      "157_Agents_Ascendant.jpg"
+    ],
+    "content_length": 3808
+  },
+  "158": {
+    "title": "Prices Tumble",
+    "url": "https://www.deeplearning.ai/the-batch/issue-281/",
+    "date": "2025-09-20T14:37:13.839818",
+    "txt_file": "158_Prices_Tumble.txt",
+    "img_files": [
+      "158_Prices_Tumble.jpg"
+    ],
+    "content_length": 4536
+  },
+  "159": {
+    "title": "Generative Video Takes Off",
+    "url": "https://www.deeplearning.ai/the-batch/issue-281/",
+    "date": "2025-09-20T14:37:13.237705",
+    "txt_file": "159_Generative_Video_Takes_Off.txt",
+    "img_files": [
+      "159_Generative_Video_Takes_Off.jpg"
+    ],
+    "content_length": 3669
+  },
+  "160": {
+    "title": "Smaller Is Beautiful",
+    "url": "https://www.deeplearning.ai/the-batch/issue-281/",
+    "date": "2025-09-20T14:37:13.342733",
+    "txt_file": "160_Smaller_Is_Beautiful.txt",
+    "img_files": [
+      "160_Smaller_Is_Beautiful.jpg"
+    ],
+    "content_length": 4642
+  },
+  "161": {
+    "title": "Alternatives to Acquisitions",
+    "url": "https://www.deeplearning.ai/the-batch/issue-281/",
+    "date": "2025-09-20T14:37:13.481876",
+    "txt_file": "161_Alternatives_to_Acquisitions.txt",
+    "img_files": [
+      "161_Alternatives_to_Acquisitions.png"
+    ],
+    "content_length": 4356
+  },
+  "162": {
+    "title": "Phi-4 Beats Models Five Times Its Size",
+    "url": "https://www.deeplearning.ai/the-batch/issue-280/",
+    "date": "2025-09-20T14:37:13.821101",
+    "txt_file": "162_Phi_4_Beats_Models_Five_Times_Its_Size.txt",
+    "img_files": [
+      "162_Phi_4_Beats_Models_Five_Times_Its_Size.png"
+    ],
+    "content_length": 3900
+  },
+  "163": {
+    "title": "Open Video Gen Closes the Gap",
+    "url": "https://www.deeplearning.ai/the-batch/issue-280/",
+    "date": "2025-09-20T14:37:14.820743",
+    "txt_file": "163_Open_Video_Gen_Closes_the_Gap.txt",
+    "img_files": [
+      "163_Open_Video_Gen_Closes_the_Gap.gif"
+    ],
+    "content_length": 3297
+  },
+  "164": {
+    "title": "Multimodal Modeling on the Double",
+    "url": "https://www.deeplearning.ai/the-batch/issue-280/",
+    "date": "2025-09-20T14:37:15.073228",
+    "txt_file": "164_Multimodal_Modeling_on_the_Double.txt",
+    "img_files": [
+      "164_Multimodal_Modeling_on_the_Double.gif"
+    ],
+    "content_length": 4790
+  },
+  "165": {
+    "title": "When LLMs Propose Research Ideas",
+    "url": "https://www.deeplearning.ai/the-batch/issue-280/",
+    "date": "2025-09-20T14:37:15.234290",
+    "txt_file": "165_When_LLMs_Propose_Research_Ideas.txt",
+    "img_files": [
+      "165_When_LLMs_Propose_Research_Ideas.gif"
+    ],
+    "content_length": 3955
+  },
+  "166": {
+    "title": "Competitive Performance, Competitive Prices",
+    "url": "https://www.deeplearning.ai/the-batch/issue-279/",
+    "date": "2025-09-20T14:37:16.187737",
+    "txt_file": "166_Competitive_Performance_Competitive_Prices.txt",
+    "img_files": [
+      "166_Competitive_Performance_Competitive_Prices.gif"
+    ],
+    "content_length": 5800
+  },
+  "167": {
+    "title": "Higher Reasoning",
+    "url": "https://www.deeplearning.ai/the-batch/issue-279/",
+    "date": "2025-09-20T14:37:16.396970",
+    "txt_file": "167_Higher_Reasoning.txt",
+    "img_files": [
+      "167_Higher_Reasoning.png"
+    ],
+    "content_length": 4020
+  },
+  "168": {
+    "title": "Game Worlds on Tap",
+    "url": "https://www.deeplearning.ai/the-batch/issue-279/",
+    "date": "2025-09-20T14:37:17.472453",
+    "txt_file": "168_Game_Worlds_on_Tap.txt",
+    "img_files": [
+      "168_Game_Worlds_on_Tap.gif"
+    ],
+    "content_length": 2850
+  },
+  "169": {
+    "title": "Getting the Facts Right",
+    "url": "https://www.deeplearning.ai/the-batch/issue-279/",
+    "date": "2025-09-20T14:37:17.702819",
+    "txt_file": "169_Getting_the_Facts_Right.txt",
+    "img_files": [
+      "169_Getting_the_Facts_Right.gif"
+    ],
+    "content_length": 3180
+  },
+  "170": {
+    "title": "Agents Open the Wallet",
+    "url": "https://www.deeplearning.ai/the-batch/issue-278/",
+    "date": "2025-09-20T14:37:18.001003",
+    "txt_file": "170_Agents_Open_the_Wallet.txt",
+    "img_files": [
+      "170_Agents_Open_the_Wallet.png"
+    ],
+    "content_length": 1839
+  },
+  "171": {
+    "title": "Mistral's Vision-Language Contender",
+    "url": "https://www.deeplearning.ai/the-batch/issue-278/",
+    "date": "2025-09-20T14:37:18.222245",
+    "txt_file": "171_Mistrals_Vision_Language_Contender.txt",
+    "img_files": [
+      "171_Mistrals_Vision_Language_Contender.png"
+    ],
+    "content_length": 3436
+  },
+  "172": {
+    "title": "Garbage Out",
+    "url": "https://www.deeplearning.ai/the-batch/issue-278/",
+    "date": "2025-09-20T14:37:18.583617",
+    "txt_file": "172_Garbage_Out.txt",
+    "img_files": [
+      "172_Garbage_Out.png"
+    ],
+    "content_length": 3651
+  },
+  "173": {
+    "title": "Breaking Jailbreaks",
+    "url": "https://www.deeplearning.ai/the-batch/issue-278/",
+    "date": "2025-09-20T14:37:18.726367",
+    "txt_file": "173_Breaking_Jailbreaks.txt",
+    "img_files": [
+      "173_Breaking_Jailbreaks.png"
+    ],
+    "content_length": 3349
+  },
+  "174": {
+    "title": "Reasoning Revealed",
+    "url": "https://www.deeplearning.ai/the-batch/issue-277/",
+    "date": "2025-09-20T14:37:18.865635",
+    "txt_file": "174_Reasoning_Revealed.txt",
+    "img_files": [
+      "174_Reasoning_Revealed.png"
+    ],
+    "content_length": 3333
+  },
+  "175": {
+    "title": "Household Help",
+    "url": "https://www.deeplearning.ai/the-batch/issue-277/",
+    "date": "2025-09-20T14:37:19.867540",
+    "txt_file": "175_Household_Help.txt",
+    "img_files": [
+      "175_Household_Help.gif"
+    ],
+    "content_length": 5538
+  },
+  "176": {
+    "title": "AI Power Couple Recommits",
+    "url": "https://www.deeplearning.ai/the-batch/issue-277/",
+    "date": "2025-09-20T14:37:19.962316",
+    "txt_file": "176_AI_Power_Couple_Recommits.txt",
+    "img_files": [
+      "176_AI_Power_Couple_Recommits.jpg"
+    ],
+    "content_length": 2973
+  },
+  "177": {
+    "title": "Object Detection for Small Devices",
+    "url": "https://www.deeplearning.ai/the-batch/issue-277/",
+    "date": "2025-09-20T14:37:20.162955",
+    "txt_file": "177_Object_Detection_for_Small_Devices.txt",
+    "img_files": [
+      "177_Object_Detection_for_Small_Devices.gif"
+    ],
+    "content_length": 4022
+  },
+  "178": {
+    "title": "Next-Gen Models Show Limited Gains",
+    "url": "https://www.deeplearning.ai/the-batch/issue-276/",
+    "date": "2025-09-20T14:37:20.549661",
+    "txt_file": "178_Next_Gen_Models_Show_Limited_Gains.txt",
+    "img_files": [
+      "178_Next_Gen_Models_Show_Limited_Gains.gif"
+    ],
+    "content_length": 5572
+  },
+  "179": {
+    "title": "No Game Engine Required",
+    "url": "https://www.deeplearning.ai/the-batch/issue-276/",
+    "date": "2025-09-20T14:37:21.028551",
+    "txt_file": "179_No_Game_Engine_Required.txt",
+    "img_files": [
+      "179_No_Game_Engine_Required.gif"
+    ],
+    "content_length": 3720
+  },
+  "180": {
+    "title": "Further Chip Restrictions on China",
+    "url": "https://www.deeplearning.ai/the-batch/issue-276/",
+    "date": "2025-09-20T14:37:21.275173",
+    "txt_file": "180_Further_Chip_Restrictions_on_China.txt",
+    "img_files": [
+      "180_Further_Chip_Restrictions_on_China.png"
+    ],
+    "content_length": 3437
+  },
+  "181": {
+    "title": "More-Efficient Training for Transformers",
+    "url": "https://www.deeplearning.ai/the-batch/issue-276/",
+    "date": "2025-09-20T14:37:21.462047",
+    "txt_file": "181_More_Efficient_Training_for_Transformers.txt",
+    "img_files": [
+      "181_More_Efficient_Training_for_Transformers.gif"
+    ],
+    "content_length": 3215
+  },
+  "182": {
+    "title": "Mixture of Experts Pulls Ahead",
+    "url": "https://www.deeplearning.ai/the-batch/issue-275/",
+    "date": "2025-09-20T14:37:21.757454",
+    "txt_file": "182_Mixture_of_Experts_Pulls_Ahead.txt",
+    "img_files": [
+      "182_Mixture_of_Experts_Pulls_Ahead.gif"
+    ],
+    "content_length": 3802
+  },
+  "183": {
+    "title": "Big AI Pursues Military Contracts",
+    "url": "https://www.deeplearning.ai/the-batch/issue-275/",
+    "date": "2025-09-20T14:37:21.878190",
+    "txt_file": "183_Big_AI_Pursues_Military_Contracts.txt",
+    "img_files": [
+      "183_Big_AI_Pursues_Military_Contracts.jpg"
+    ],
+    "content_length": 3430
+  },
+  "184": {
+    "title": "Voter's Helper",
+    "url": "https://www.deeplearning.ai/the-batch/issue-275/",
+    "date": "2025-09-20T14:37:22.306702",
+    "txt_file": "184_Voters_Helper.txt",
+    "img_files": [
+      "184_Voters_Helper.gif"
+    ],
+    "content_length": 2986
+  },
+  "185": {
+    "title": "Free Agents",
+    "url": "https://www.deeplearning.ai/the-batch/issue-275/",
+    "date": "2025-09-20T14:37:22.470484",
+    "txt_file": "185_Free_Agents.txt",
+    "img_files": [
+      "185_Free_Agents.gif"
+    ],
+    "content_length": 3315
+  },
+  "186": {
+    "title": "Claude Controls Computers",
+    "url": "https://www.deeplearning.ai/the-batch/issue-274/",
+    "date": "2025-09-20T14:37:23.046324",
+    "txt_file": "186_Claude_Controls_Computers.txt",
+    "img_files": [
+      "186_Claude_Controls_Computers.gif"
+    ],
+    "content_length": 3850
+  },
+  "187": {
+    "title": "Robots On the Loading Dock",
+    "url": "https://www.deeplearning.ai/the-batch/issue-274/",
+    "date": "2025-09-20T14:37:23.922637",
+    "txt_file": "187_Robots_On_the_Loading_Dock.txt",
+    "img_files": [
+      "187_Robots_On_the_Loading_Dock.gif"
+    ],
+    "content_length": 3333
+  },
+  "188": {
+    "title": "Does Your Model Comply With the AI Act?",
+    "url": "https://www.deeplearning.ai/the-batch/issue-274/",
+    "date": "2025-09-20T14:37:24.382555",
+    "txt_file": "188_Does_Your_Model_Comply_With_the_AI_Act.txt",
+    "img_files": [
+      "188_Does_Your_Model_Comply_With_the_AI_Act.gif"
+    ],
+    "content_length": 5765
+  },
+  "189": {
+    "title": "When Agents Train Algorithms",
+    "url": "https://www.deeplearning.ai/the-batch/issue-274/",
+    "date": "2025-09-20T14:37:24.711550",
+    "txt_file": "189_When_Agents_Train_Algorithms.txt",
+    "img_files": [
+      "189_When_Agents_Train_Algorithms.gif"
+    ],
+    "content_length": 4053
+  },
+  "190": {
+    "title": "Disembodied Spirits Speak",
+    "url": "https://www.deeplearning.ai/the-batch/issue-273/",
+    "date": "2025-09-20T14:37:24.927021",
+    "txt_file": "190_Disembodied_Spirits_Speak.txt",
+    "img_files": [],
+    "content_length": 555
+  },
+  "191": {
+    "title": "AI Burns All the Energy",
+    "url": "https://www.deeplearning.ai/the-batch/issue-273/",
+    "date": "2025-09-20T14:37:25.110736",
+    "txt_file": "191_AI_Burns_All_the_Energy.txt",
+    "img_files": [
+      "191_AI_Burns_All_the_Energy.jpg"
+    ],
+    "content_length": 3561
+  },
+  "192": {
+    "title": "Innovation Can't Win",
+    "url": "https://www.deeplearning.ai/the-batch/issue-273/",
+    "date": "2025-09-20T14:37:25.295022",
+    "txt_file": "192_Innovation_Cant_Win.txt",
+    "img_files": [
+      "192_Innovation_Cant_Win.jpg"
+    ],
+    "content_length": 4031
+  },
+  "193": {
+    "title": "No Work for Coders",
+    "url": "https://www.deeplearning.ai/the-batch/issue-273/",
+    "date": "2025-09-20T14:37:25.618187",
+    "txt_file": "193_No_Work_for_Coders.txt",
+    "img_files": [
+      "193_No_Work_for_Coders.jpg"
+    ],
+    "content_length": 3325
+  },
+  "194": {
+    "title": "Benchmark Tests Are Meaningless",
+    "url": "https://www.deeplearning.ai/the-batch/issue-273/",
+    "date": "2025-09-20T14:37:25.890356",
+    "txt_file": "194_Benchmark_Tests_Are_Meaningless.txt",
+    "img_files": [
+      "194_Benchmark_Tests_Are_Meaningless.jpg"
+    ],
+    "content_length": 3433
+  },
+  "195": {
+    "title": "Synthetic Data Distorts Models",
+    "url": "https://www.deeplearning.ai/the-batch/issue-273/",
+    "date": "2025-09-20T14:37:26.018392",
+    "txt_file": "195_Synthetic_Data_Distorts_Models.txt",
+    "img_files": [
+      "195_Synthetic_Data_Distorts_Models.jpg"
+    ],
+    "content_length": 3748
+  },
+  "196": {
+    "title": "AI Giants Go Nuclear",
+    "url": "https://www.deeplearning.ai/the-batch/issue-272/",
+    "date": "2025-09-20T14:37:26.209463",
+    "txt_file": "196_AI_Giants_Go_Nuclear.txt",
+    "img_files": [
+      "196_AI_Giants_Go_Nuclear.png"
+    ],
+    "content_length": 4018
+  },
+  "197": {
+    "title": "AI Bromance Turns Turbulent",
+    "url": "https://www.deeplearning.ai/the-batch/issue-272/",
+    "date": "2025-09-20T14:37:26.546745",
+    "txt_file": "197_AI_Bromance_Turns_Turbulent.txt",
+    "img_files": [
+      "197_AI_Bromance_Turns_Turbulent.jpg"
+    ],
+    "content_length": 3752
+  },
+  "198": {
+    "title": "Mistral AI Sharpens the Edge",
+    "url": "https://www.deeplearning.ai/the-batch/issue-272/",
+    "date": "2025-09-20T14:37:27.822472",
+    "txt_file": "198_Mistral_AI_Sharpens_the_Edge.txt",
+    "img_files": [
+      "198_Mistral_AI_Sharpens_the_Edge.gif"
+    ],
+    "content_length": 3483
+  },
+  "199": {
+    "title": "Faster, Cheaper Video Generation",
+    "url": "https://www.deeplearning.ai/the-batch/issue-272/",
+    "date": "2025-09-20T14:37:28.034438",
+    "txt_file": "199_Faster_Cheaper_Video_Generation.txt",
+    "img_files": [
+      "199_Faster_Cheaper_Video_Generation.gif"
+    ],
+    "content_length": 3851
+  },
+  "200": {
+    "title": "Malaysia's Data Center Boom",
+    "url": "https://www.deeplearning.ai/the-batch/issue-271/",
+    "date": "2025-09-20T14:37:28.185223",
+    "txt_file": "200_Malaysias_Data_Center_Boom.txt",
+    "img_files": [
+      "200_Malaysias_Data_Center_Boom.png"
+    ],
+    "content_length": 3076
+  }
+}

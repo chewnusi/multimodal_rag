@@ -1,0 +1,13 @@
+Harvard University amassed a huge new text corpus for training machine learning models.
+
+What's new:  Harvard  unveiled  the Harvard Library Public Domain Corpus, nearly 1 million copyright-free books that were digitized as part of the Google Books project. That's five times as many volumes as Books3, which was used to train large language models including Meta's Llama 1 and Llama 2 but is no longer available through lawful channels.
+
+How it works:  Harvard Law Library's Innovation Lab compiled the corpus with funding from Microsoft and OpenAI. For now, it's available only to current Harvard students, faculty, and staff. The university is working with Google to distribute it widely.
+
+The corpus includes historical legal texts, casebooks, statutes, and treatises, a repository of legal knowledge that spans centuries and encompasses diverse jurisdictions. It also includes less-widely distributed works in languages such as Czech, Icelandic, and Welsh.
+
+Behind the news:  The effort  highlights  the AI community's ongoing need for large quantities of high-quality text to keep improving language models. In addition, the EU's AI Act  requires  that AI developers disclose the training data they use, a task made simpler by publicly available datasets.  Books3 , a collection of nearly 200,000 volumes, was withdrawn because it included copyrighted materials. Other large-scale datasets of books include  Common Corpus , a multilingual library of 2 million to 3 million public-domain books and newspapers.
+
+Why it matters:  Much of the world's high-quality text that's easily available on the web already has been collected for training AI models. This makes fresh supplies especially valuable for training larger, more data-hungy models. Projects like the Harvard Library Public Domain Corpus suggest there's more high-quality text to be mined from books. Classic literature and niche documents also could help AI models draw from a more diverse range of perspectives.
+
+We're thinking:  Media that has passed out of copyright and into the public domain generally is old -- sometimes very old -- but it could hold knowledge that's not widely available elsewhere.

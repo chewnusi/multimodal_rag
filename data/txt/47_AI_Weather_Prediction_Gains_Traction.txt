@@ -1,0 +1,17 @@
+The U.S. government is using AI to predict the paths of hurricanes.
+
+What's new:  As the world enters the season of tropical cyclones, National Hurricane Center (NHC), a division of the National Weather Service, is  collaborating  on Google's  Weather Lab . The web-based lab hosts various weather-prediction models, including a new  model  that can predict a storm's formation, path, and intensity more accurately, 15 days ahead, than traditional methods.
+
+Key insight:  Models of complicated systems like weather must account for two types of randomness: (i) randomness that a model could have learned to predict with better data or training and (ii) randomness the model could not have learned, regardless of data or training methods. To address the first type, you can train an ensemble of models. To address the second, you can add randomness at inference.
+
+How it works:  The authors trained an ensemble of graph neural networks, which process data in the form of nodes and edges that connect them, to predict the weather at locations on Earth based on the weather at each location (node) and nearby locations (other nodes connected to the target location by edges) at the previous two time steps (which were 12 hours apart early in training and 6 hours apart later).
+
+The authors separately pretrained four graph neural networks on  global weather data from 1979 to 2018 . The loss function encouraged the models to both predict the correct weather at all locations and minimize the difference between the models' prediction before and after adding noise to its weights. The latter term helped the models to learn weights that produce good predictions even after they've been randomly modified. They fine-tuned the graph neural networks on  global weather data from 2016 to 2022 . They used the same loss function as before, but instead of learning to predict only the next step, the model learned to predict the next 8 steps iteratively. At inference, for each graph neural network, they added noise to the weights 14 times, leading to an ensemble of 4*14 = 56 models. The final result is the average of their predictions.
+
+Results:  The authors' method predicted 2023 weather and cyclone tracks better than their previous model,  GenCast , which had exceeded the previously state-of-the-art  ENS  model).
+
+The author's method produced predictions whose root mean squared error (RMSE) was an average 5.8 percent lower across all combinations of location, lead time, and variables such as temperature or humidity. Predicting a cyclone's geographical position 3 days ahead, the authors' method was more accurate than GenCast's prediction 2 days ahead. Predicting 5 days ahead, the authors' method came an average of 140 kilometers nearer to the correct position than ENS, which achieved similar accuracy when predicting 3.5 days ahead. While previous AI models have struggled to predict the cyclone wind speed, the author's method achieved lower average error than both ENS and the  Hurricane Analysis and Forecast System  maintained by the National Oceanic and Atmospheric Administration.
+
+Why it matters:  Hurricanes are often destructive and deadly. In 2005, Hurricane Katrina struck the U.S. Gulf Coast, resulting in 1,200 deaths and $108 billion in damage. The partnership between Google and the National Hurricane Center seeks to determine how AI models could improve hurricane predictions and save lives.
+
+We're thinking:  This lightning fast progress in weather modeling should precipitate better forecasts.

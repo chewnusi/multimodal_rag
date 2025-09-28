@@ -1,0 +1,15 @@
+OpenAI is working with Oracle to build its next chunk of processing power, a $30 billion outgrowth of the partners' $500 billion Stargate project and a sign of OpenAI's ongoing thirst for computation.
+
+What's new:  OpenAI and Oracle plan to build data-center capacity that will consume  4.5 gigawatts  of electricity, an order of magnitude more than one of the largest data centers under  construction  Microsoft, which currently provides OpenAI's computational muscle. The locations have not yet been announced.
+
+How it works:  The plan follows the successful launch of an OpenAI-Oracle data center built in Abilene, Texas, that serves as a proof of concept. That project will draw 1.2 gigawatts when it's finished next year.
+
+OpenAI will pay Oracle $30 billion annually,  The Wall Street Journal   reported . OpenAI  wrote  in a blog post that it expects to exceed its planned $500 billion data-center buildout dubbed  Stargate , and that it's assessing sites with Stargate partner SoftBank. In October 2024, Altman  complained  in a Reddit Ask Me Anything session that a lack of processing power has delayed the company's products.
+
+Behind the news:  Stargate, a partnership among OpenAI, Oracle, and Softbank, was announced by President Trump at the White House alongside the executive order that called for the U.S. government's recent  AI action plan .
+
+The partners aimed to spend $500 billion over four years to build 20 data centers. OpenAI would receive processing power, Oracle would provide hardware and software infrastructure, and SoftBank would secure financing. Other participants in Stargate include the Colorado-based builder Crusoe, Emirati AI-investment fund MGX, OpenAI's infrastructure partner Microsoft, and Nvidia.
+
+Why it matters:  Staying at the forefront of AI requires immense amounts of computation, despite innovations in more compute-efficient model architectures and training and inference techniques. But how to get it? For OpenAI, the answer is forming strong ties to large-scale providers of cloud computing; first Microsoft, now Oracle. The OpenAI-Oracle partnership enables OpenAI to continue to develop models at pace and at scale, while it enables Oracle to gain experience and credibility as a provider of large-scale computing for cutting-edge AI.
+
+We're thinking:  OpenAI's plan to build 20 giant data centers -- even more, based on the company's latest statement --  poses a major challenge to existing energy resources. Having SoftBank as a partner may be a significant advantage as that company  ramps up  its investments in power generation specifically for AI.

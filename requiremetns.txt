@@ -1,0 +1,12 @@
+scrapy>=2.5.0
+requests>=2.25.0
+pathlib2>=2.3.0
+unicode
+numpy
+pillow
+python-dotenv
+google-genai
+langchain-google-genai 
+langchain-community 
+faiss-cpu
+streamlit

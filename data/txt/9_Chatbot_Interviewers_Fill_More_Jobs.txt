@@ -1,0 +1,17 @@
+Large language models may have advantages over human recruiters when conducting job interviews, a study shows.
+
+What's new:  Researchers at the University of Chicago and Erasmus University Rotterdam  found  that, relative to interviews by recruiters, AI-led interviews increased job offers, acceptances, and retention of new employees.
+
+How it works:  The authors collected interviews with roughly 67,000 qualified applicants for nearly 50 job openings in a range of industries. The jobs were mostly entry-level, customer-service positions located in the Philippines that offered monthly compensation between $280 and $435. Interviewees were either assigned to the recruiter, assigned to the chatbot, or given a choice between the two. The chatbot was  Anna AI , a large language model with voice input/output from the recruiter PSG Global Solutions.
+
+All interviews followed the same format: Applicants were asked about career goals, education, and experience and were allowed to ask questions afterward. Both the recruiter and Anna AI were permitted to ask follow-up questions. Following the interviews, around 2,700 applicants completed a survey designed to measure their satisfaction with the interview process and general attitudes toward AI. Human recruiters made all hiring decisions after assessing interviews via audio recordings, interview transcripts, and standardized test scores. They were instructed to apply the same assessment criteria to each hire regardless of whether the applicant was interviewed by a recruiter or Anna AI.
+
+Results:  The authors found that AI can yield more hires, seem more unbiased, and put applicants more at ease than human interviewers.
+
+Job applicants that were interviewed by Anna AI were 12 percent more likely to be offered a job than those who were interviewed by a recruiter. Among applicants who received an offer, those who had been interviewed by Anna AI were 18 percent more likely to start the job. In a free-form survey, applicants interviewed by Anna AI were half as likely to report that the interviewer discriminated against them based on their gender. Around 5 percent of AI interviews ended early, and 7 percent had technical difficulties. On the other hand, Anna AI covered a median of 9 topics while recruiters covered 5, and applicants interviewed by Anna AI were 71 percent more likely to give a positive assessment of the interview experience.
+
+Behind the news:  The  rise  of AI software that performs job interviews has raised concerns that such systems may be biased against certain demographic characteristics. Some U.S. states have moved to  limit  some uses of AI in hiring. Meanwhile, job seekers are  turning the tables  on employers by using a variety of AI models to make a better impression during interviews.
+
+Why it matters:  Many discussions of AI-powered job interviews focus on the potential for bias, but few point out the technology's benefits for applicants and employers alike. This study found that chatbot interviews can contribute to a win-win situation: More applicants hired and fewer quick departures. The study covered the relatively narrow realm of call-center jobs, and its conclusions may not apply more broadly. But it suggests that chatbot interviews may have advantages beyond convenience and cost.
+
+We're thinking:  Job applicants in this study felt the chatbot was less biased when it came to gender. Today more tools are available for reducing AI bias than human bias! Technologists' work is clearly paying off in this area.

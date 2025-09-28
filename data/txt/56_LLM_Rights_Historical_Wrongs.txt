@@ -1,0 +1,17 @@
+In Northern California, old property deeds may still include racial clauses: language, made illegal decades ago, that was designed to ban people of color from owning or living in certain homes. The state of California now requires counties to find and remove them, but manually combing through millions of documents would take years. Researchers used AI to find them automatically.
+
+What's new:  Faiz Surani, Mirac Suzgun, and colleagues at Stanford University and Princeton University  fine-tuned a large language model to find racial clauses  in deeds for property in the California county of Santa Clara.
+
+Key insight:  Manual and keyword searches may fail to catch racial clauses if they're obscured by subtle wording or errors in optical character recognition (OCR). But a fine-tuned large language model can understand context, identify relevant phrases, and avoid potential false alarms like the surnames Black or White. Lawyers can confirm the model's findings.
+
+How it works:  The authors used an  OCR  system to extract text from 5.2 million pages of Santa Clara property deeds filed between 1850 and 1980. They drew examples from that corpus to form training and validation datasets and then processed the rest to find deeds that contained racial clauses.
+
+To curate examples for training and validation, the authors started by sampling 20,000 pages at random. Since deeds have significant variation in format and quality, they added 10,000 deeds  from other U.S. counties . They filtered the combined examples using keywords that may indicate racial clauses, such as "Negro," "Mongolian," or "No person of," yielding 3,801 pages. They manually labeled the spans that included such language, which appeared on roughly 80 percent of those pages. They fine-tuned  Mistral-7B  via  LoRA  on the labeled examples to learn to detect and reproduce discriminatory text.
+
+Results:  The authors fed the remaining roughly 5.2 million unlabeled pages to the fine-tuned model. When the model identified a deed that contained a racial clause, county staff confirmed the finding and redacted the clause.
+
+The authors found 24,500 Santa Clara lots covered by racial clauses -- about one in four homes in the county in 1950. It also revealed that 10 developers, out of what the authors estimate were hundreds, were responsible for one-third of the racial clauses, demonstrating that only a small number of actors shaped decades of segregation. The fine-tuned model reviewed all pages in 6 days, which would cost an estimated $258 based on current prices for cloud access to GPUs. In contrast, few-shot prompting GPT-3.5 Turbo would have been faster (3.6 days) but less accurate and over 50 times more expensive ($13,634). Working manually, a single county staff member would have needed nearly 10 years and $1.4 million.
+
+Why it matters:  Large language models can interpret historical documents to reveal the nature and scope of actions in the past that otherwise would remain obscure -- in this case, housing discrimination. By flagging discriminatory language, this work enables historians to identify areas affected by racial clauses and trace their broader social and economic effects. The team  open-sourced  the model, streamlining the process for other United States counties.
+
+We're thinking:  While AI is making history, it's also illuminating it!

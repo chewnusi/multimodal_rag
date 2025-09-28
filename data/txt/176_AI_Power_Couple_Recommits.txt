@@ -1,0 +1,15 @@
+Amazon and Anthropic expanded their partnership, potentially strengthening Amazon Web Services' AI infrastructure and lengthening the high-flying startup's runway.
+
+What's new:  Amazon, already a significant investor in Anthropic,  put  another $4 billion into the AI company. In exchange, Anthropic will train and run its AI models on Amazon's custom-designed chips. (Disclosure: Andrew Ng serves on Amazon's board of directors.)
+
+How it works:  The new round brings Amazon's investment in Anthropic to $8 billion (though it remains a minority stake without a seat on the startup's board). The deal extended the partnership in several ways:
+
+AWS becomes Anthropic's primary partner for training AI models. Anthropic will train its models using Amazon's  Trainium  chips, which are designed for training neural networks of 100 billion parameters and up. Amazon executives previously  claimed  that these chips could cut training costs by as much as 50 percent compared to Nvidia graphics processing units (GPUs). Previously Anthropic ran its Claude models on Nvidia hardware; going forward, Anthropic will run them on Amazon's  Inferentia  chips, according to  The Information . Customers of Amazon Web Services will be able to fine-tune Claude on Bedrock, Amazon Web Services' AI model platform. Anthropic will contribute to developing Amazon's  Neuron  toolkit, software that accelerates deep learning workloads on Trainium and Inferentia chips.
+
+Behind the news:  In November, Anthropic  agreed  to use Google's cloud-computing infrastructure in return for a $2 billion investment. The previous month, Amazon had  committed  to invest as much as $4 billion in Anthropic, and Anthropic had made Amazon Web Services the primary provider of its models.
+
+Yes, but:  The UK's Competition and Markets Authority recently  cleared  both Amazon's and Google's investments in Anthropic, but regulators continue to monitor such arrangements for violations of antitrust laws. Microsoft and OpenAI face a similar  investigation  by the European Commission and U.S. Federal Trade Commission.
+
+Why it matters:  The speed and skill required to build state-of-the-art AI models is driving tech giants to collaborate with startups, while the high cost is driving startups to partner with tech giants. If the partnership between Amazon and Anthropic lives up to its promise, Claude users and developers could see gains in performance and efficiency. This could validate Amazon's hardware as a competitor with Nvidia and strengthen Amazon Web Services' position in the cloud market. On the other hand, if Claude faces any challenges in scaling while using Trainium and Inferentia, that could affect both companies' ambitions.
+
+We're thinking:  Does the agreement between Amazon and Anthropic give the tech giant special access to the startup's models for distillation, research, or integration, as the  partnership  between Microsoft and OpenAI does? The companies' announcements don't say.
