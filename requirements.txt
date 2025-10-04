@@ -1,0 +1,14 @@
+scrapy
+requests
+Unidecode
+google-generativeai
+google-cloud-aiplatform
+langchain
+langchain-google-genai
+langchain-community
+langchain-core
+faiss-cpu
+numpy
+Pillow
+streamlit
+python-dotenv
