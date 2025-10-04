@@ -33,7 +33,8 @@ class BatchNewsSpider(scrapy.Spider):
     
     def setup_directories(self):
         """Create necessary directories"""
-        self.data_dir = Path('data')
+        project_root = Path(__file__).parent.parent.parent.parent
+        self.data_dir = project_root / 'data'
         self.txt_dir = self.data_dir / 'txt'
         self.img_dir = self.data_dir / 'img'
         

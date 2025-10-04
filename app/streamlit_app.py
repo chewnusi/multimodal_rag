@@ -4,19 +4,11 @@ from pathlib import Path
 from typing import List, Dict, Any
 import json
 
-# Add parent directory to path for imports
 sys.path.append(str(Path(__file__).parent.parent / "src"))
 
-# Import search service
-try:
-    from search_service import MultimodalSearchService
-    from answer_generation_service import AnswerGenerationService
-except ImportError as e:
-    st.error(f"Error importing search service: {e}")
-    st.error("Make sure search_service.py is in the src/ folder")
-    st.stop()
+from search_service import MultimodalSearchService
+from answer_generation_service import AnswerGenerationService
 
-# Page configuration
 st.set_page_config(
     page_title="Multimodal RAG Search",
     page_icon="🔍",
@@ -24,7 +16,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Initialize session state
 if 'query' not in st.session_state:
     st.session_state.query = ""
 if 'search_results' not in st.session_state:
@@ -95,11 +86,14 @@ def perform_search_and_generate_answer(max_results=4):
             )
             st.session_state.search_results = results
             
+            llm_articles = min(max_results, 6)
+            llm_images = min(max_results, 6)
+            
             answer_result = st.session_state.answer_service.generate_answer_with_summary(
                 query=query,
                 search_results=results,
-                n_articles=max_results,
-                n_images=max_results
+                n_articles=llm_articles,
+                n_images=llm_images
             )
             st.session_state.generated_answer = answer_result
             
@@ -155,8 +149,7 @@ def display_image_result(result: Dict[str, Any]):
         col1, col2 = st.columns([1, 2])
         
         with col1:
-            # Extract the image path string from the result dict
-            image_path = result['image_path']  # This should be a string
+            image_path = result['image_path']
             display_image_helper(image_path, caption=result['filename'])
                         
         with col2:
@@ -172,15 +165,11 @@ def display_image_result(result: Dict[str, Any]):
 def display_image_helper(image_path: str, caption: str = ""):
     """Helper function to display images with path resolution."""
     try:
-        possible_paths = [
-            Path("data") / "img" / Path(image_path).name,    
-            Path("../data") / "img" / Path(image_path).name,
-        ]
+        path = Path("data") / "img" / Path(image_path).name
         
-        for path in possible_paths:
-            if path.exists():
-                st.image(str(path), caption=caption, width='stretch')
-                return True
+        if path.exists():
+            st.image(str(path), caption=caption, width='stretch')
+            return True
         
         st.error(f"Image not found: {Path(image_path).name}")
         return False
@@ -193,22 +182,18 @@ def display_image_helper(image_path: str, caption: str = ""):
 def display_text_result(result: Dict[str, Any]):
     """Display a single text search result with associated images."""
     with st.container():
-        # Title and metadata
         st.markdown(f"**{result['title']}**")
         st.markdown(f"*Article ID: {result['article_id']} | Date: {result['date'][:10] if result['date'] else 'N/A'}*")
         
-        # Show associated images if any
         if result.get('images'):
             st.markdown("**Associated Images:**")
             
-            # Display images in columns (max 3 per row)
             images = result['images']
             for i in range(0, len(images), 3):
                 cols = st.columns(3)
                 for j, img_path in enumerate(images[i:i+3]):
                     with cols[j]:
                         try:
-                            # Try different path variations for images
                             working_path = find_working_image_path(img_path)
                             if working_path:
                                 st.image(working_path, width='stretch')
@@ -217,16 +202,13 @@ def display_text_result(result: Dict[str, Any]):
                         except Exception as e:
                             st.text(f"Image: {Path(img_path).name}")
         
-        # Article content
         col1, col2 = st.columns([3, 1])
         
         with col1:
-            # Toggle button for full/preview content
             show_full_key = f"show_full_{result['article_id']}"
             if show_full_key not in st.session_state:
                 st.session_state[show_full_key] = False
             
-            # Show content based on toggle state
             if st.session_state[show_full_key]:
                 st.markdown(result['full_content'])
                 button_text = "Show Preview"
@@ -234,7 +216,6 @@ def display_text_result(result: Dict[str, Any]):
                 st.markdown(result['content'])
                 button_text = "Show Full Article"
             
-            # Toggle button
             if st.button(button_text, key=f"toggle_{result['article_id']}"):
                 st.session_state[show_full_key] = not st.session_state[show_full_key]
                 st.rerun()
@@ -245,14 +226,10 @@ def display_text_result(result: Dict[str, Any]):
 
 def find_working_image_path(image_path: str) -> str:
     """Find working path for an image file."""
-    possible_paths = [
-        Path("data") / "img" / Path(image_path).name,
-        Path("../data") / "img" / Path(image_path).name
-    ]
+    path = Path("data") / "img" / Path(image_path).name
     
-    for path in possible_paths:
-        if path.exists():
-            return str(path)
+    if path.exists():
+        return str(path)
     return None
 
 def display_search_results():
@@ -262,7 +239,6 @@ def display_search_results():
     
     st.header(f"Search Results for: '{st.session_state.query}'")
     
-    # Create tabs for text and image results
     text_tab, image_tab = st.tabs(["📝 Text Results", "🖼️ Image Results"])
     
     with text_tab:
@@ -288,11 +264,9 @@ def main():
     st.title("🔍 Multimodal RAG Search")
     st.markdown("Search through articles using both text and images")
     
-    # Initialize search service
     if not initialize_search_service():
         st.stop()
     
-    # Sidebar with system information
     with st.sidebar:
         st.header("System Information")
         
@@ -311,24 +285,16 @@ def main():
         
         st.divider()
         
-        # Search options
-        st.header("Search Options")
-        search_mode = st.selectbox(
-            "Search Mode",
-            ["Both Text & Images", "Text Only", "Images Only"]
-        )
-        
         max_results = st.slider("Max Results per Query", 1, 20, 3)
+        st.caption("💡 **Tip:** You can retrieve up to 20 results for browsing, but the AI will only analyze the top 6 most relevant articles for generating answers")
         
         if st.button("🔄 Reload Indexes"):
             st.session_state.search_service = None
             st.rerun()
     
-    # Main search interface
     st.header("Search Query")
     st.markdown("Enter your search query to get an AI-powered answer, based on found relevant articles and images.")
     
-    # Single query input
     st.session_state.query = st.text_input(
         "Search Query",
         value=st.session_state.query,
@@ -336,7 +302,6 @@ def main():
         key="main_query"
     )
     
-    # Action buttons
     col1, col2 = st.columns([2, 1])
     
     with col1:
@@ -352,11 +317,9 @@ def main():
         display_generated_answer()
         st.divider()
     
-    # Display results
     if st.session_state.search_results:
         display_search_results()
     
-    # Footer
     st.markdown("---")
     st.markdown(
         "<div style='text-align: center; color: gray;'>"
