@@ -64,6 +64,12 @@ def clear_query():
     """Clear the query and results."""
     st.session_state.query = ""
     st.session_state.search_results = None
+    
+def cleanup_old_ui_state():
+    """Clean up old UI state entries that are no longer needed."""
+    keys_to_remove = [key for key in st.session_state.keys() if key.startswith('show_full_')]
+    for key in keys_to_remove:
+        del st.session_state[key]
 
 def perform_search_and_generate_answer(max_results=4):
     """Perform search and generate answer for the query."""
@@ -76,6 +82,8 @@ def perform_search_and_generate_answer(max_results=4):
     if not query:
         st.warning("Please enter a search query")
         return
+    
+    cleanup_old_ui_state()
     
     with st.spinner(f"Searching for '{query}' and generating answer..."):
         try:
@@ -127,19 +135,19 @@ def display_generated_answer():
         
         with col1:
             st.metric(
-                "Sources Used", 
+                "Unique Sources Used", 
                 st.session_state.generated_answer['sources_used']
             )
         
         with col2:
             st.metric(
-                "Primary Articles", 
+                "Articles", 
                 st.session_state.generated_answer['primary_articles']
             )
         
         with col3:
             st.metric(
-                "Primary Images", 
+                "Images", 
                 st.session_state.generated_answer['primary_images']
             )
 
@@ -263,6 +271,8 @@ def main():
     """Main Streamlit application."""
     st.title("🔍 Multimodal RAG Search")
     st.markdown("Search through articles using both text and images")
+    
+    cleanup_old_ui_state()
     
     if not initialize_search_service():
         st.stop()

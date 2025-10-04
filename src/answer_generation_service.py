@@ -153,9 +153,11 @@ Guidelines:
 - Synthesize information from multiple sources when relevant
 - Provide clear, well-structured answers
 - Focus on the most important and relevant information
-- When visual content is available, acknowledge its relevance to the topic
-- Be concise but thorough
-- If sources don't fully answer the question, acknowledge the limitations"""
+- When visual content is available, acknowledge its relevance to the topic if it adds value
+- Be concise but thorough, covering all key points
+- If sources don't fully answer the question, acknowledge the limitations
+- Do not tell about irrelevant articles or images; just ignore them and focus on the relevant ones to provide the best answer possible
+- No need to tell exact file name or number of article or image where the information is from"""
     
     def generate_answer(self, query: str, search_results: Dict[str, List[Dict[str, Any]]], 
                    n_articles: int = 3, n_images: int = 3) -> str:
@@ -180,7 +182,7 @@ Guidelines:
 
 {formatted_context}
 
-Please analyze the images I'm providing and give a comprehensive answer based on both the textual content and visual information."""
+Please analyze the images I'm providing and give a comprehensive answer based on both the textual content and visual information if it is relevant to the question."""
             
             message_content.append({
                 "type": "text",
@@ -231,7 +233,7 @@ Please analyze the images I'm providing and give a comprehensive answer based on
                 }
             )
             
-            logger.info(f"Generated answer using {context['total_unique_sources']} sources and {images_added} images")
+            logger.info(f"Generated answer using {context['total_unique_sources']} unique sources and {images_added} additional images")
             return response.content
             
         except Exception as e:

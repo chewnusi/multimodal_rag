@@ -42,96 +42,73 @@ class UnifiedIndexCreator:
         missing = [path for path in required_paths if not path.exists()]
         
         if missing:
-            print("Missing required data folder structure:")
-            for path in missing:
-                print(f"  - {path}")
-            print("\nExpected structure:")
-            print("  data/")
-            print("    ├── txt/")
-            print("    ├── img/")
-            print("    └── metadata.json")
+            logger.error("Missing required data folder structure")
             sys.exit(1)
     
     def create_text_index(self, force_recreate: bool = False) -> bool:
         text_index_path = self.indexes_folder / "text_index"
         
         if text_index_path.exists() and not force_recreate:
-            print(f"Text index already exists at {text_index_path}")
-            print("Use --force to recreate")
+            logger.info(f"Text index already exists at {text_index_path}. Use --force to recreate")
             return True
         
-        try:
-            print("\n" + "="*50)
-            print("CREATING TEXT INDEX")
-            print("="*50)
-            
+        try:            
             text_service = TextVectorStoreService(
                 data_folder=str(self.data_folder),
                 metadata_file="metadata.json"
             )
             
-            print("Processing text files...")
             documents = text_service.process_text_files()
             
             if not documents:
-                print("No text documents found to process")
+                logger.warning("No text documents found to process")
                 return False
             
-            print(f"Creating text vector store with {len(documents)} documents...")
+            logger.info(f"Creating text vector store with {len(documents)} documents...")
             vector_store = text_service.create_vector_store(documents)
             
-            print("Saving text index...")
             text_service.save_vector_store(vector_store, str(text_index_path))
             
             stats = text_service.get_stats(vector_store)
-            print(f"Text index stats: {stats}")
             
-            print("Text index creation completed successfully")
+            logger.info("Text index creation completed successfully")
             return True
             
         except Exception as e:
-            print(f"Error creating text index: {e}")
+            logger.error(f"Error creating text index: {e}")
             return False
     
     def create_image_index(self, force_recreate: bool = False) -> bool:
         image_index_path = self.indexes_folder / "image_index"
         
         if image_index_path.exists() and not force_recreate:
-            print(f"Image index already exists at {image_index_path}")
-            print("Use --force to recreate")
+            logger.info(f"Image index already exists at {image_index_path}. Use --force to recreate")
             return True
         
         try:
-            print("\n" + "="*50)
-            print("CREATING IMAGE INDEX")
-            print("="*50)
-            
             image_service = ImageVectorStoreService(
                 data_folder=str(self.data_folder),
                 metadata_file="metadata.json"
             )
             
-            print("Processing image files...")
             documents = image_service.process_image_files()
             
             if not documents:
-                print("No image documents found to process")
+                logger.warning("No image documents found to process")
                 return False
             
-            print(f"Creating image vector store with {len(documents)} documents...")
+            logger.info(f"Creating image vector store with {len(documents)} documents...")
             vector_store = image_service.create_vector_store(documents)
             
-            print("Saving image index...")
             image_service.save_vector_store(vector_store, str(image_index_path))
             
             stats = image_service.get_stats(vector_store)
-            print(f"Image index stats: {stats}")
             
-            print("Image index creation completed successfully")
+            logger.info("Image index creation completed successfully")
             return True
             
         except Exception as e:
-            print(f"Error creating image index: {e}")
+            logger.error(f"Error creating image index: {e}")
             return False
 
     
@@ -139,37 +116,30 @@ class UnifiedIndexCreator:
         text_success = self.create_text_index(force_recreate)
         image_success = self.create_image_index(force_recreate)
         
-        print("\n" + "="*50)
-        print("SUMMARY")
-        print("="*50)
-        print(f"Text index: {'SUCCESS' if text_success else 'FAILED'}")
-        print(f"Image index: {'SUCCESS' if image_success else 'FAILED'}")
+        logger.info(f"Text index: {'SUCCESS' if text_success else 'FAILED'}")
+        logger.info(f"Image index: {'SUCCESS' if image_success else 'FAILED'}")
         
         if text_success and image_success:
-            print("\nBoth indexes created successfully!")
-            print(f"Indexes saved to: {self.indexes_folder}")
+            logger.info("\nBoth indexes created successfully!")
+            logger.info(f"Indexes saved to: {self.indexes_folder}")
             return True
         else:
-            print("\nFailed to create indexes")
+            logger.error("\nFailed to create indexes")
             return False
     
     def check_environment(self) -> bool:
         """Check if environment is properly configured."""
-        print("Checking environment...")
         
         project_id = os.getenv("PROJECT_ID")
         if not project_id:
-            print("ERROR: PROJECT_ID not set in environment")
+            logger.error("ERROR: PROJECT_ID not set in environment")
             return False
         
         txt_files = list((self.data_folder / "txt").glob("*.txt"))
         img_files = list((self.data_folder / "img").glob("*"))
         
-        print(f"Text files found: {len(txt_files)}")
-        print(f"Image files found: {len(img_files)}")
-        
         if not txt_files and not img_files:
-            print("WARNING: No text or image files found")
+            logger.warning("WARNING: No text or image files found")
             return False
         return True
 
@@ -189,11 +159,11 @@ def main():
     creator = UnifiedIndexCreator(args.data, args.indexes)
     
     if not creator.check_environment():
-        print("Environment check failed")
+        logger.error("Environment check failed")
         sys.exit(1)
     
     if args.check:
-        print("Environment check completed successfully")
+        logger.info("Environment check completed successfully")
         return
     
     if args.text_only:
