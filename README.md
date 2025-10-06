@@ -4,6 +4,12 @@ Retrieval-Augmented Generation (RAG) system that enables search and question-ans
 
 ---
 
+## Live Demo
+
+**Try the application here:** [https://multimodal-rag-app-782138620060.us-central1.run.app/](https://multimodal-rag-app-782138620060.us-central1.run.app/)
+
+---
+
 ## Project Overview
 
 This system demonstrates a complete multimodal RAG pipeline that:
@@ -19,7 +25,7 @@ This system demonstrates a complete multimodal RAG pipeline that:
 
 ### Technical Approach
 
-The system implements a **bidirectional multimodal RAG architecture** where:
+The system implements a **bidirectional multimodal RAG architecture with evaluation** where:
 
 1. **Text Processing Pipeline**:
    - Articles are chunked and embedded using Google's `gemini-embedding-001` model
@@ -42,6 +48,12 @@ The system implements a **bidirectional multimodal RAG architecture** where:
    - Model analyzes both textual and visual information
    - Generates comprehensive, well-structured answers
 
+5. **Evaluation Framework**:
+   - Automated test case generation using GPT models from document corpus
+   - Multi-dimensional RAG evaluation with DeepEval framework
+   - LLM-as-judge assessment across faithfulness, relevancy, and retrieval quality
+   - Performance benchmarking with interpretable scoring thresholds
+
 ### Tools & Models Selected
 
 | Component | Technology | Reasoning |
@@ -51,6 +63,7 @@ The system implements a **bidirectional multimodal RAG architecture** where:
 | **Image Embeddings** | Vertex AI Multimodal Embedding (multimodalembedding@001) | 1408-dimensional embeddings supporting both visual and contextual text |
 | **Vector Store** | FAISS (Facebook AI Similarity Search) | Efficient similarity search, persistent storage, works well with LangChain |
 | **LLM** | Google Gemini 2.0 Flash | Multimodal capabilities, fast inference, supports vision + text reasoning |
+| **Evaluation Framework** | DeepEval + GPT o3-mini | LLM-as-judge evaluation with RAG-specific metrics, automated test generation |
 | **Framework** | LangChain | Simplifies integration between embeddings, vector stores, and LLMs |
 | **UI** | Streamlit | Rapid development, interactive components, easy deployment |
 
@@ -73,6 +86,7 @@ The system implements a **bidirectional multimodal RAG architecture** where:
 - **Python**: 3.10 or higher
 - **Google Cloud Project**: With Vertex AI API enabled
 - **Google API Key**: For Gemini models
+- **OpenAI API Key**: For evaluation with DeepEval (optional)
 - **Operating System**: Linux, macOS, or Windows (WSL recommended for Windows)
 
 ---
@@ -108,6 +122,9 @@ PROJECT_ID=your-google-cloud-project-id
 # Required: Google API Key (for Gemini models)
 GOOGLE_API_KEY=your-google-api-key
 
+# Required for Evaluation: OpenAI API Key (for DeepEval)
+OPENAI_API_KEY=your-openai-api-key
+
 # Optional: LangSmith tracing (for debugging)
 LANGSMITH_TRACING=false # set to true for enabling
 LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
@@ -126,6 +143,11 @@ LANGSMITH_PROJECT=""
 2. **GOOGLE_API_KEY**:
    - Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
    - Create an API key for Gemini models
+
+3. **OPENAI_API_KEY** (for evaluation):
+   - Visit [OpenAI Platform](https://platform.openai.com/api-keys)
+   - Create an API key for GPT models used in evaluation
+   - Only needed if running system evaluation with DeepEval
 
 ### 4. Authenticate with Google Cloud
 
@@ -186,6 +208,34 @@ python3 src/create_indexes.py --data data --indexes indexes
 streamlit run app/streamlit_app.py
 ```
 
+### Step 4: Evaluate System Performance (Optional)
+
+```bash
+# Generate test cases from your documents
+python3 evaluate/generate_testset.py
+```
+
+This creates:
+- `evaluate/testset.json` - Test cases with queries and expected answers
+- `evaluate/testset.csv` - Same data in CSV format
+- `evaluate/sampled_documents.txt` - List of documents used for generation
+
+```bash
+# Run evaluation
+python3 evaluate/evaluate_rag.py
+
+# Use not default path to test set
+python3 evaluate/evaluate_rag.py --testset evaluate/testset.json
+
+# Custom retrieval parameters
+python3 evaluate/evaluate_rag.py --k-text 7 --n-articles 4
+    
+# Quick evaluation on subset
+python3 evaluate/evaluate_rag.py --max-samples 3
+```
+
+**Note**: Evaluation requires OpenAI API access and may take several minutes depending on test set size.
+
 ---
 
 ## How It Works
@@ -208,3 +258,38 @@ User Query
     ↓
 AI-Generated Answer
 ```
+
+---
+
+## RAG System Evaluation
+
+### Evaluation Metrics
+
+The system evaluates five key aspects of RAG performance:
+
+#### 1. **Faithfulness** (Factual Grounding)
+- **Measures**: Whether answers are supported by retrieved context
+
+#### 2. **Answer Relevancy** (Query Alignment)
+- **Measures**: How directly answers address the input question
+
+#### 3. **Contextual Relevancy** (Retrieval Quality)
+- **Measures**: How relevant retrieved documents are to the query
+
+#### 4. **Contextual Precision** (Ranking Quality)
+- **Measures**: Whether relevant documents rank higher than irrelevant ones
+
+#### 5. **Contextual Recall** (Information Coverage)
+- **Measures**: Whether all necessary information was retrieved
+
+### Performance Benchmarks
+
+The values below are the average scores computed across the 15 test cases included with this repository (see `evaluate/testset.json`).
+
+- **Faithfulness**: 0.8926
+- **Answer Relevancy**: 0.8009
+- **Contextual Relevancy**: 0.2579
+- **Contextual Precision**: 0.8112
+- **Contextual Recall**: 0.8667
+
+The system demonstrates strong performance across most metrics, that indicates that the answers are trustworthy and comprehensive. The lowest score is Contextual Relevancy, indicating that while the system finds the correct information (Contextual Recall score is high), it retrieves far too much irrelevant text alongside it. This is caused by document ingestion strategy: usage of articles as single units, without breaking articles into smaller, semantically-focused paragraphs or sections.

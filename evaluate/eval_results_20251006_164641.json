@@ -1,0 +1,133 @@
+{
+  "timestamp": "2025-10-06T16:46:41.382581",
+  "metrics": {
+    "faithfulness": 0.8925925925925926,
+    "answer_relevancy": 0.8008730158730158,
+    "contextual_relevancy": 0.25786545688129986,
+    "contextual_precision": 0.8111904761904761,
+    "contextual_recall": 0.8666666666666667
+  },
+  "num_samples": 15,
+  "individual_scores": [
+    {
+      "query": "How do mamba's bidir embedding and frame averaging jointly reduce LLM token input?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5714285714285714,
+      "contextual_relevancy": 0.0425531914893617,
+      "contextual_precision": 1.0,
+      "contextual_recall": 1.0
+    },
+    {
+      "query": "Scrutinize Stability AI's plan to automate creative tasks; evaluate Basse's future AI directives.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "contextual_relevancy": 0.05333333333333334,
+      "contextual_precision": 1.0,
+      "contextual_recall": 1.0
+    },
+    {
+      "query": "Imagine sudden strict AI laws—with minimal burden, how does COMPL-AI validate LLM legal compliance?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9166666666666666,
+      "contextual_relevancy": 0.5737704918032787,
+      "contextual_precision": 1.0,
+      "contextual_recall": 1.0
+    },
+    {
+      "query": "What key enhancements did Apple's updated vision-language models achieve via AFM framework, quantization, LoRA, MoE?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9,
+      "contextual_relevancy": 0.08064516129032258,
+      "contextual_precision": 1.0,
+      "contextual_recall": 1.0
+    },
+    {
+      "query": "What were the specific rollout issues from GPT-5's automatic router failure necessitating older models fallback?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "contextual_relevancy": 0.014705882352941176,
+      "contextual_precision": 1.0,
+      "contextual_recall": 1.0
+    },
+    {
+      "query": "How will AI data center growth, efficiency gains, and Jevons interplay affect global energy demand?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.625,
+      "contextual_relevancy": 0.7126436781609196,
+      "contextual_precision": 0.8095238095238094,
+      "contextual_recall": 1.0
+    },
+    {
+      "query": "Imagine an AI acing privacy but failing fairness; what fixes can lessen bias and vulnerabilities?",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.6,
+      "contextual_relevancy": 0.16,
+      "contextual_precision": 0.41666666666666663,
+      "contextual_recall": 1.0
+    },
+    {
+      "query": "How do resource strains, leadership clashes, AGI clauses, and external deals influence future MS-OpenAI strategies?",
+      "faithfulness": 0.8888888888888888,
+      "answer_relevancy": 0.9,
+      "contextual_relevancy": 0.7012987012987013,
+      "contextual_precision": 0.6666666666666666,
+      "contextual_recall": 1.0
+    },
+    {
+      "query": "How do Apple's unsolv puzzles/tokens issues and iOS control spur dev adoption of native AI?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "contextual_relevancy": 0.08,
+      "contextual_precision": 1.0,
+      "contextual_recall": 1.0
+    },
+    {
+      "query": "How does synthetic-only neural net training degrade performance and does 10% real data help?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "contextual_relevancy": 0.1896551724137931,
+      "contextual_precision": 1.0,
+      "contextual_recall": 1.0
+    },
+    {
+      "query": "How do successive enhancements from chatbots to context-aware agents synergize to transform routines?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5,
+      "contextual_relevancy": 0.4927536231884058,
+      "contextual_precision": 0.6083333333333333,
+      "contextual_recall": 0.0
+    },
+    {
+      "query": "Imagine AlphaEvolve tackling unsolved equations; how might its agentic workflow iteratively enhance code and algorithms?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "contextual_relevancy": 0.4177215189873418,
+      "contextual_precision": 0.6666666666666666,
+      "contextual_recall": 1.0
+    },
+    {
+      "query": "Imagine labs deploying Reachy 2. How might open robotics systems reshape human-robot interaction research?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "contextual_relevancy": 0.1346153846153846,
+      "contextual_precision": 1.0,
+      "contextual_recall": 1.0
+    },
+    {
+      "query": "How does REPA loss quicken transformers by aligning DINOv2 embdngs, boosting img gen & seg?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "contextual_relevancy": 0.21428571428571427,
+      "contextual_precision": 1.0,
+      "contextual_recall": 1.0
+    },
+    {
+      "query": "Explain how Clio auto-clusters anonymized Claude 3.5 convos to show dev use and safety errors.",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "contextual_relevancy": 0.0,
+      "contextual_precision": 0.0,
+      "contextual_recall": 0.0
+    }
+  ]
+}
