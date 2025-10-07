@@ -10,6 +10,13 @@ Retrieval-Augmented Generation (RAG) system that enables search and question-ans
 
 ---
 
+## Demo: Video Example
+
+[![Watch the demo](assets/demo_preview.png)](https://drive.google.com/file/d/1s1ZNfruw_p3O0izGAWp_sTA9MVovpBIk/view?usp=drive_link)
+
+---
+
+
 ## Project Overview
 
 This system demonstrates a complete multimodal RAG pipeline that:
