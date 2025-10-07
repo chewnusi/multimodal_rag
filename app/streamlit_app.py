@@ -271,9 +271,7 @@ def main():
     """Main Streamlit application."""
     st.title("🔍 Multimodal RAG Search")
     st.markdown("Search through articles using both text and images")
-    
-    cleanup_old_ui_state()
-    
+
     if not initialize_search_service():
         st.stop()
     
